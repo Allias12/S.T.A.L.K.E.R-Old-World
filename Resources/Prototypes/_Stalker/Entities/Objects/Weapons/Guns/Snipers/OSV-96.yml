@@ -36,7 +36,7 @@
         priority: 3
         whitelist:
           tags:
-          - Magazine13x108
+          - 50bmgMag10
       gun_module_muzzle:
         name: Muzzle
         priority: 2
@@ -48,7 +48,7 @@
         priority: 1
         whitelist:
           tags:
-          - STCartridge13x108
+          - STCartridge50bmg
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
