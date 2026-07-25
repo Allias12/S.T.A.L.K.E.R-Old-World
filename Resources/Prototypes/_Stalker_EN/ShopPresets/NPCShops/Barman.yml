@@ -566,6 +566,9 @@
         ClothingLegsGorka6b: 50
         ClothingLegsNavyPants: 50
         ClothingLegsRussianNumber: 50
+        ClothingLegsskirtshort: 50
+        ClothingLegsskirtmedium: 50
+        ClothingLegsskirtlong: 50
         # FEET
         ClothingShoesColorBlack: 30
         ClothingShoesBootsWork: 30

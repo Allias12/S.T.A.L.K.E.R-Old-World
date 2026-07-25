@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseClothingLegs
+  id: ClothingLegsskirtshort
+  name: Mini Skirt
+  components:
+    - type: Sprite
+      sprite: _Stalker_EN\Objects\Clothing\pants\miniskirt.rsi
+    - type: Clothing
+      sprite: _Stalker_EN\Objects\Clothing\pants\miniskirt.rsi
+
+- type: entity
+  parent: BaseClothingLegs
+  id: ClothingLegsskirtmedium
+  name: Medium Skirt
+  components:
+    - type: Sprite
+      sprite: _Stalker_EN\Objects\Clothing\pants\mediumskirt.rsi
+    - type: Clothing
+      sprite: _Stalker_EN\Objects\Clothing\pants\mediumskirt.rsi
+
+- type: entity
+  parent: BaseClothingLegs
+  id: ClothingLegsskirtlong
+  name: Long Skirt
+  components:
+    - type: Sprite
+      sprite: _Stalker_EN\Objects\Clothing\pants\longskirt.rsi
+    - type: Clothing
+      sprite: _Stalker_EN\Objects\Clothing\pants\longskirt.rsi

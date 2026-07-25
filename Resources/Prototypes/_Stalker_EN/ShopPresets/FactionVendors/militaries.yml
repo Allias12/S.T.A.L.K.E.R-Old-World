@@ -893,6 +893,9 @@
       STClothingLegsJeansPol: 10
       STClothingLegsJeansRus: 10
       ClothingLegsJeansUa: 2
+      ClothingLegsskirtshort: 10
+      ClothingLegsskirtmedium: 10
+      ClothingLegsskirtlong: 10
 
   - name: "Footwear"
     priority: 3
