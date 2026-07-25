@@ -89,8 +89,8 @@
       STWeaponSMGPP1901: 1500
       STWeaponSMGPP2000: 1650
       # Other
-      STWeaponRifleAK103: 5000
-      STWeaponRifleAK203: 6500
+      #STWeaponRifleAK103: 5000 - StalkerOW: Removed until T4 is back.
+      #STWeaponRifleAK203: 6500 - StalkerOW: Removed until T4 is back.
       WeaponPistolStalkerPM: 100 #T1
       WeaponPistolStalkerAPS: 500 #T2
       WeaponPistolStalkerTT: 550
