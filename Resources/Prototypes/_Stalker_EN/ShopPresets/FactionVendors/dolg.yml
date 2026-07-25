@@ -139,6 +139,7 @@
         STEnergyDrink: 150
         STEnergyDrinkMonster: 150
         STEnergyDrinkRevo: 200
+        STEnergyDrinkWhiteMonster: 100
         STDrinkBeerCanBaltic: 90
         DrinkCossackVodkaBottleFull: 55
         STFoodBreadPlain: 35
