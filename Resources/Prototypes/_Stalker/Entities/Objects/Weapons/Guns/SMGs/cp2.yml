@@ -102,9 +102,9 @@
       shape:
         - 0,0,5,1
     - type: Sprite
-      sprite: _Stalker_EN\Objects\Weapons\Guns\_Skins\Veresk_liturgy
+      sprite: _Stalker_EN/Objects/Weapons/Guns/_Skins/Veresk_liturgy.rsi
     - type: Clothing
-      sprite: _Stalker_EN\Objects\Weapons\Guns\_Skins\Veresk_liturgy
+      sprite: _Stalker_EN/Objects/Weapons/Guns/_Skins/Veresk_liturgy.rsi
     - type: ItemSlots
       slots:
         gun_magazine:
