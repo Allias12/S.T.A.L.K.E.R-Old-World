@@ -1,8 +1,8 @@
 
 - type: entity
-  id: 13x108Mag10
-  name: magazine 13x108 (10)
-  description: Magazine 12.7x108 for rifles. Bullet capacity 10. Sold empty.
+  id: 50bmgMag10
+  name: magazine 50 BMG (10)
+  description: Magazine for 50 cal rifles. Bullet capacity 10. Sold empty.
   parent: Base545Mag10
   suffix: Stalker
   components:
@@ -10,13 +10,13 @@
       self: 0.35
     - type: Tag
       tags:
-        - Magazine13x108
+        - Magazine50bmg
     - type: BallisticAmmoProvider
       proto:
       mayTransfer: true
       whitelist:
         tags:
-          - STCartridge13x108
+          - STCartridge50bmg
       capacity: 10
     - type: Item
       size: Small

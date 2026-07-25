@@ -144,6 +144,7 @@
       545Mag20: 150 #T2
       MP40Mag: 100 #T1
       BaseMP5Mag: 160
+      VityazMag: 150
       # Other
       Base2070Mag: 30
       TOZ106Mag5: 100
@@ -478,20 +479,22 @@
     items:
       # 5,45x39
       STWeaponRifleAKS74U: 3
-      STWeaponRifleAKS74: 6
-      STWeaponRifleRPK74Vedma: 10
+      STWeaponRifleAKS74: 5
+      STWeaponRifleRPK74Vedma: 11
       STWeaponRifleOC14Liturgia: 9
       # 5.56
-      STWeaponRifleM16: 10
+      STWeaponRifleM16: 9
       # SMGS
       STWeaponSMGPPSh41: 5
-      STWeaponSMGMP5: 4
-      STWeaponSMGStalkerCP2VereskLiturgy: 8
+      STWeaponSMGMP5: 3
+      STWeaponSMGStalkerCP2VereskLiturgy: 10
       # 7,62x39
-      STWeaponRifleAKMC: 9 # Worse AKM version for cheaper
+      STWeaponRifleAKM: 12 # Worse AKM version for cheaper
       STWeaponSniperSKS: 3
       # 7.62x54
-      STWeaponSniperSVDliturgy: 45 # frag out my renechud
+      STWeaponSniperSVDliturgy: 60 # frag out my renechud
+      # explosive
+      DynamiteThree: 20 #coughing rookie vs HYDROGEN RENEGADE BOMB
   - name: shop-category-magazines
     priority: 2
     items:

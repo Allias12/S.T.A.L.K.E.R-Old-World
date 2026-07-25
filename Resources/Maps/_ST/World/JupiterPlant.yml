@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/19/2026 18:16:54
-  entityCount: 11467
+  time: 07/19/2026 20:56:02
+  entityCount: 11477
 maps:
 - 2
 grids:
@@ -5680,6 +5680,16 @@ entities:
           decals:
             13143: 114,-34
             13144: 120,-34
+        - node:
+            color: '#FFFFFFFF'
+            id: Remains
+          decals:
+            13878: 78.96505,-51.60262
+            13879: 77.0588,-49.89831
+            13880: 64.0319,-52.962936
+            13881: 63.828247,-52.85349
+            13882: 56.01883,-47.806
+            13883: 55.08133,-47.071114
         - node:
             color: '#FFFFFFFF'
             id: STBasaltCloumnSmallBroken
@@ -12797,6 +12807,51 @@ entities:
             13473: 103.51671,-26.443262
             13474: 103.4056,-27.15854
         - node:
+            angle: -4.71238898038469 rad
+            color: '#740400E3'
+            id: line
+          decals:
+            13903: 78.058205,-50.99649
+            13904: 77.19883,-51.043396
+            13905: 76.35508,-51.059032
+            13906: 75.54258,-51.02776
+            13907: 75.10508,-51.059032
+            13908: 74.23008,-51.043396
+            13909: 73.38633,-51.07467
+            13910: 72.589455,-51.043396
+            13914: 77.15153,-71.033005
+            13915: 76.30778,-71.00173
+            13916: 64.9484,-65.075745
+            13917: 63.260902,-65.060104
+        - node:
+            color: '#740400E3'
+            id: line
+          decals:
+            13894: 53.46545,-63.612705
+            13895: 53.481075,-62.408745
+            13896: 53.463604,-61.595573
+            13899: 57.712444,-49.76947
+            13900: 57.712444,-50.58254
+            13901: 57.681194,-51.333057
+            13902: 57.66998,-52.13152
+        - node:
+            color: '#890C01D7'
+            id: skull
+          decals:
+            13885: 54.017456,-64.05458
+        - node:
+            angle: 1.5707963267948966 rad
+            color: '#890C01D7'
+            id: skull
+          decals:
+            13884: 79.8737,-70.988045
+        - node:
+            angle: -4.71238898038469 rad
+            color: '#890C01FF'
+            id: skull
+          decals:
+            13876: 79.855675,-50.99282
+        - node:
             color: '#0000000C'
             id: splatter
           decals:
@@ -13471,6 +13526,38 @@ entities:
             id: splatter
           decals:
             11025: 32.574898,-91.58701
+        - node:
+            angle: -4.71238898038469 rad
+            color: '#740400E3'
+            id: splatter
+          decals:
+            13911: 71.91758,-50.73068
+            13912: 72.120705,-51.231026
+            13913: 68.99528,-69.90722
+        - node:
+            color: '#740400E3'
+            id: splatter
+          decals:
+            13897: 57.752674,-49.175797
+            13898: 58.221424,-49.222702
+        - node:
+            angle: -4.71238898038469 rad
+            color: '#890C01D7'
+            id: splatter
+          decals:
+            13877: 78.4338,-50.977184
+        - node:
+            color: '#890C01D7'
+            id: splatter
+          decals:
+            13886: 78.58831,-71.4097
+            13887: 78.55706,-70.67481
+            13888: 55.30957,-63.56407
+            13889: 53.575195,-63.45462
+            13890: 53.59082,-62.438293
+            13891: 52.543945,-63.485893
+            13892: 52.21353,-59.49502
+            13893: 52.635406,-59.119762
     - type: RadiationGridResistance
 - proto: Barrel1
   entities:
@@ -18367,6 +18454,21 @@ entities:
     - type: Transform
       pos: 102.20988,-108.35724
       parent: 2
+  - uid: 11473
+    components:
+    - type: Transform
+      pos: 75.4368,-62.964203
+      parent: 2
+  - uid: 11474
+    components:
+    - type: Transform
+      pos: 79.28432,-69.67594
+      parent: 2
+  - uid: 11477
+    components:
+    - type: Transform
+      pos: 52.68868,-63.219303
+      parent: 2
 - proto: Corpse3Stalker
   entities:
   - uid: 1712
@@ -18406,6 +18508,18 @@ entities:
     - type: Transform
       pos: 40.438995,-25.440775
       parent: 2
+  - uid: 11475
+    components:
+    - type: Transform
+      pos: 76.20619,-70.31701
+      parent: 2
+- proto: Corpse5Stalker
+  entities:
+  - uid: 11471
+    components:
+    - type: Transform
+      pos: 63.96961,-50.485855
+      parent: 2
 - proto: Corpse6Stalker
   entities:
   - uid: 7478
@@ -18413,12 +18527,48 @@ entities:
     - type: Transform
       pos: 33.093796,-90.67832
       parent: 2
+  - uid: 8505
+    components:
+    - type: MetaData
+      name: Mauled Corpse
+    - type: Transform
+      pos: 76.639824,-49.057213
+      parent: 2
+  - uid: 11469
+    components:
+    - type: MetaData
+      desc: Something sure wentand mauled this unfortunate soul, with good chunks of flesh appearing to be torn by claws.
+      name: Decapitated Corpse
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 79.03045,-51.63713
+      parent: 2
+- proto: Corpse7Stalker
+  entities:
+  - uid: 11472
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 69.70189,-50.5484
+      parent: 2
 - proto: Corpse8Stalker
   entities:
   - uid: 7471
     components:
     - type: Transform
       pos: 110.59188,-14.518399
+      parent: 2
+  - uid: 11470
+    components:
+    - type: Transform
+      pos: 58.508904,-48.312473
+      parent: 2
+- proto: CorpseStalkerFishDrop
+  entities:
+  - uid: 11476
+    components:
+    - type: Transform
+      pos: 54.25118,-61.45245
       parent: 2
 - proto: DimSmallLight
   entities:

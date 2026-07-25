@@ -26,9 +26,8 @@
     projectileClass: 3
     damage:
       types:
-        Piercing: 57
-        Mutant: 57 # EN
-    ignoreResistances: true
+        Piercing: 90
+        Mutant: 57
   # - type: StaminaDamageOnCollide
     # damage: 10
 
@@ -73,6 +72,6 @@
     damage:
       types:
         Piercing: 65
-    ignoreResistances: true 
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 10

@@ -1,5 +1,5 @@
 - type: entity
-  id: BaseSTCartridge13x108
+  id: BaseSTCartridge50bmg
   name: cartridge (12,7x108 rifle)
   parent: BaseCartridge
   abstract: true
@@ -7,7 +7,7 @@
   - type: Tag
     tags:
     - Cartridge
-    - STCartridge13x108
+    - STCartridge50bmg
   - type: CartridgeAmmo
     deleteOnSpawn: true
   - type: Sprite
@@ -22,25 +22,25 @@
     self: 0.02
 
 - type: entity
-  id: STCartridge13x108FMJ
-  name: Патрон (12,7x108)FMJ
-  parent: BaseSTCartridge13x108
+  id: STCartridge50bmgFMJ
+  name: 50 BMG FMJ
+  parent: BaseSTCartridge50bmg
   components:
     - type: CartridgeAmmo
-      proto: Bullet13x108FMJ
+      proto: Bullet50bmgFMJ
 
 - type: entity
-  id: STCartridge13x108PC
+  id: STCartridge50bmgPC
   name: Патрон (12,7x108)ПС
-  parent: BaseSTCartridge13x108
+  parent: BaseSTCartridge50bmg
   components:
   - type: CartridgeAmmo
-    proto: Bullet13x108PC
+    proto: Bullet50bmgPC
 
 - type: entity
-  id: STCartridge13x108HPBT
-  name: Патрон (12,7x108)HP BT
-  parent: BaseSTCartridge13x108
+  id: STCartridge50bmgHPBT
+  name: 50 BMG HP BT
+  parent: BaseSTCartridge50bmg
   components:
   - type: CartridgeAmmo
-    proto: Bullet13x108HPBT
+    proto: Bullet50bmgHPBT

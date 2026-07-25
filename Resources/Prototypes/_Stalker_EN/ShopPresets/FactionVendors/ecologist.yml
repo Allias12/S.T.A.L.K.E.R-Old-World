@@ -129,7 +129,8 @@
         STWeaponRifleM16: 3200
         STWeaponRifleM16M203: 4000 # T2
         STWeaponRifleAKS74: 3800
-
+        STWeaponRifleSIG739: 5000 # DMR for you guys
+        STWeaponRifleAK74M: 6000 # real gun for them
     - name: shop-category-magazines
       priority: 2
       items:
@@ -142,7 +143,7 @@
         545Mag45: 300
         VityazMag: 300
         556Mag30: 330
-
+        739Mag30: 330
     - name: shop-category-ammunition
       priority: 3
       items:
@@ -160,11 +161,14 @@
         # 5.45
         545HPBox: 375 # Mutant
         545FMJBox: 270 # T2
-        545PCBox: 2000 # T3
+        545PCBox: 1200 # T3
         # 5.56
         556WarmagBox: 425 # Mutant
         556FMJBox: 300 # T2
-        556M855Box: 2500 #  T3
+        556M855Box: 1300 #  T3
+        #7.62
+        739FMJBox: 1500
+        739HPBox: 550
 
     - name: shop-category-medicine # 70% discount from stalkers
       priority: 4
@@ -289,6 +293,7 @@
         ZoneArtifactDetectorSpruce: 2200 # T2
         ZoneArtifactDetectorBarracuda: 3500 # T3
         Veles: 4500 # T3
+        ZoneArtifactDetectorSeaDevil: 10000   
         #ZoneArtifactDetectorBear: 16000 #T4 I'm good with adding this
 
         # RP Items / Anomaly Destructors

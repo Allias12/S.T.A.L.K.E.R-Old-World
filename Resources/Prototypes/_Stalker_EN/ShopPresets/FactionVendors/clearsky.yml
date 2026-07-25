@@ -373,6 +373,7 @@
       ZoneArtifactDetectorResponse: 600 # T2
       ZoneArtifactDetectorSpruce: 2000 # T2
       ZoneArtifactDetectorBarracuda: 2750 # T3
+      ZoneArtifactDetectorSeaDevil: 10000 # T4
       ElectronicDetectorT1: 1000 # EN
 
   - name: shop-category-utilities

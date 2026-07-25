@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseAmmoBoxStalker
   id: Ammobox1255BP
-  name: Коробка 12,7x55 БП
-  description: Для РШ и АШ-12, 4й класс пробития, 20 штук
+  name: Box of 12,7x55 FMJ
+  description: FMJ 12,7X55 able to pierce T4 armor
   components:
   - type: MagazineVisuals
     magState: 1270red

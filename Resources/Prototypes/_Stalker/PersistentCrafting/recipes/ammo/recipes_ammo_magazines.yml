@@ -1,8 +1,8 @@
 - type: persistentCraftRecipe
-  id: PersistentCraftAmmoMagazineRecipe13x108Mag10
+  id: PersistentCraftAmmoMagazineRecipe50bmgMag10
   name: persistent-craft-recipe-generic-name
   description: persistent-craft-recipe-generic-desc
-  displayProto: 13x108Mag10
+  displayProto: 50bmgMag10
   branch: Ammo
   tier: 5
   requiredNode: PersistentCraftWeaponAmmoNodeT5
@@ -12,7 +12,7 @@
   - proto: STCraftAnomalyDust
     amount: 3
   results:
-  - proto: 13x108Mag10
+  - proto: 50bmgMag10
   category: ammo
   subCategory: ammo-magazines
 
