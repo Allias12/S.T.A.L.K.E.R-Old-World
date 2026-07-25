@@ -328,3 +328,31 @@
     keepFirst: true
     exactFirst: false
     time: 3
+
+# OW changes
+
+- type: entity
+  parent: STEnergyDrink
+  id: STEnergyDrinkWhiteMonster
+  name: White Monster
+  description: FOR REAL MEN, CONTAINS 300 MILLIGRAMS OF CAFFINE AND 50 MILLIGRAMS OF PROTIEN.
+  components:
+  - type: Trash
+    time: 300
+  - type: Sprite
+    sprite: _Stalker_EN\Objects\Consumable\Drinks\whitemonster.rsi
+  - type: Item
+    sprite: _Stalker_EN\Objects\Consumable\Drinks\whitemonster.rsi
+
+- type: entity
+  parent: STEnergyDrink
+  id: STEnergyDrinkPinkMonster
+  name: Pink Monster
+  description: For the more feminine monster enjoyers.
+  components:
+  - type: Trash
+    time: 300
+  - type: Sprite
+    sprite: _Stalker_EN\Objects\Consumable\Drinks\whitemonster.rsi
+  - type: Item
+    sprite: _Stalker_EN\Objects\Consumable\Drinks\whitemonster.rsi
