@@ -130,7 +130,7 @@
       STSharpenedKnife: 1
       STKnifeShard: 85 # munny sink
       WeaponPistolGSH18: 1
-      STWeaponSniperSVDMono: 85
+      #STWeaponSniperSVDMono: 85 - StalkerOW: Removed until T4 is back.
       STClothingBeltThrowingKnifes: 5
 
   - name: shop-category-magazines
@@ -145,7 +145,7 @@
       ClothingOuterArmorSevaMonolithPriest: 15
       ClothingHeadHelmetBerill5MMonolith: 8
       ClothingHeadHelmetBulatMonolith: 10
-      ClothingOuterArmorBerill5MMonolith: 50
+      #ClothingOuterArmorBerill5MMonolith: 50 - StalkerOW: Removed until T4 is back.
 
   - name: shop-category-grenades
     priority: 4
