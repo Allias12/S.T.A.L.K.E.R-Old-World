@@ -4,9 +4,9 @@
   name: Mini Skirt
   components:
     - type: Sprite
-      sprite: _Stalker_EN\Objects\Clothing\pants\miniskirt.rsi
+      sprite: _Stalker_EN/Objects/Clothing/pants/miniskirt.rsi
     - type: Clothing
-      sprite: _Stalker_EN\Objects\Clothing\pants\miniskirt.rsi
+      sprite: _Stalker_EN/Objects/Clothing/pants/miniskirt.rsi
 
 - type: entity
   parent: BaseClothingLegs
@@ -14,9 +14,9 @@
   name: Medium Skirt
   components:
     - type: Sprite
-      sprite: _Stalker_EN\Objects\Clothing\pants\mediumskirt.rsi
+      sprite: _Stalker_EN/Objects/Clothing/pants/mediumskirt.rsi
     - type: Clothing
-      sprite: _Stalker_EN\Objects\Clothing\pants\mediumskirt.rsi
+      sprite: _Stalker_EN/Objects/Clothing/pants/mediumskirt.rsi
 
 - type: entity
   parent: BaseClothingLegs
@@ -24,6 +24,6 @@
   name: Long Skirt
   components:
     - type: Sprite
-      sprite: _Stalker_EN\Objects\Clothing\pants\longskirt.rsi
+      sprite: _Stalker_EN/Objects/Clothing/pants/longskirt.rsi
     - type: Clothing
-      sprite: _Stalker_EN\Objects\Clothing\pants\longskirt.rsi
+      sprite: _Stalker_EN/Objects/Clothing/pants/longskirt.rsi
