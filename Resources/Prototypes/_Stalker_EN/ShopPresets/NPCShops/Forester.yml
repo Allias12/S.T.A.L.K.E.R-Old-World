@@ -304,27 +304,27 @@
     ZoneArtifactBaloon: 20
     ZoneArtifactKolobok: 20
     # Mutant parts
-    # Boar
-    MutantPartBoarHoof: 0 # T1
-    MutantPartSeasonedBoarHoof: 0 # T2
-    MutantPartOldBoarHoof: 0 # T3
-    # Bear
-    MutantPartBearClaw: 0
-    MutantPartBearPaw: 0
-    MutantPartBearEye: 5
-    ClothingHeadBear: 30
+ 
+    
     #T1 -------- Health * 1
+    MutantPartBoarHoof: 0
     MutantPartBlindDogTail: 0
     MutantPartFleshEye: 0
     FoodMeatSpiderLeg: 0
     MutantPartCatGland: 0
     #T2 -------- Health * 1.8
+    MutantPartSeasonedBoarHoof: 0
+    MutantPartBearClaw: 0
+    MutantPartBearPaw: 0
+    MutantPartBearEye: 5
+    ClothingHeadBear: 30
     MutantPartLeshiyRoot: 5
     MutantPartPseudodogTail: 0
     MutantPartSnorkFoot: 0
     MutantPartPsiDogTail: 7
     MutantPartFrogLeg: 0
     #T3+ -------- Health * 3
+    MutantPartOldBoarHoof: 0
     MutantPartBloodsuckerTentacles: 18
     MutantPartOraculeEye: 20
     MutantPartPseudogiantHeart: 255
@@ -426,20 +426,22 @@
   id: NpcForesterLimanskEN
   minSellPrice: 1
   itemsForSale:
+    # StalkerOW - Begin
+    # Changed most of the prices for artifacts so they as least matched the prices for mutant parts by ease of acquisition.
     # ---GRAVITY---
     #Т2
     ZoneArtifactFireball: 0
-    ZoneArtifactBattery: 2
+    ZoneArtifactBattery: 5
     ZoneArtifactAmoeba: 4
-    ZoneArtifactBlood: 4
-    ZoneArtifactEye: 2
+    ZoneArtifactBlood: 10
+    ZoneArtifactEye: 8
     #T3
     ArtMedusa: 0
     ZoneArtifactVyvert: 0
     ZoneArtifactFlower: 10
     #T4
-    ZoneArtifactGravi: 60
-    ZoneArtifactNightStar: 60
+    ZoneArtifactGravi: 90
+    ZoneArtifactNightStar: 90
     #T5
     ZoneArtifactDistorter: 200
     ZoneArtifactFocus: 200
@@ -449,76 +451,76 @@
     ZoneArtifactDarkCube: 0 # its too scary
     # ---THERMAL---
     #T3
-    ZoneArtifactFlame: 15
-    ZoneArtifactRock: 15
-    ZoneArtifactBunch: 10
+    ZoneArtifactFlame: 50
+    ZoneArtifactRock: 65
+    ZoneArtifactBunch: 40
     #T4
-    ZoneArtifactCristall: 60
-    ZoneArtifactRoot: 60
-    ZoneArtifactSun: 60
+    ZoneArtifactCristall: 90
+    ZoneArtifactRoot: 90
+    ZoneArtifactSun: 90
     #T5
     ZoneArtifactLithosphere: 220
     # ---ELECTRICAL---
     #T3
-    ArtMoon: 20
-    ZoneArtifactFlash: 20
-    ZoneArtifactAccumulator: 15
+    ArtMoon: 65
+    ZoneArtifactFlash: 50
+    ZoneArtifactAccumulator: 40
     #T4
-    ZoneArtifactDiamond: 70
+    ZoneArtifactDiamond: 90
     #T5
-    ZoneArtifactIce: 160
-    ZoneArtifactTesla: 160
+    ZoneArtifactIce: 200
+    ZoneArtifactTesla: 200
     # ---SPATIAL---
     #T1
     ZoneArtifactFloodlight: 1
     #T3
-    ZoneArtifactArf: 15
-    ZoneArtifactThorn: 20
+    ZoneArtifactArf: 40
+    ZoneArtifactThorn: 60
     #T4
-    ZoneArtifactAtom: 70
+    ZoneArtifactAtom: 90
     ZoneArtifactCompass: 100 # more valueable to forester specifically
     #T5
-    ZoneArtifactSoul: 160
-    ZoneArtifactCrucifix: 160
+    ZoneArtifactSoul: 200
+    ZoneArtifactCrucifix: 200
     # ---ACIDIC---
     #T3
-    ZoneArtifactMeat: 20
+    ZoneArtifactMeat: 40
     #T4
     ZoneArtifactBaloon: 70
     ZoneArtifactKolobok: 70
     # Mutant parts
+    # Nerfed Bloodsucker prices and buffed most other parts by tier to diversify what's worth selling to Forester.
     # Boar
-    MutantPartBoarHoof: 0 # T1
-    MutantPartSeasonedBoarHoof: 0 # T2
-    MutantPartOldBoarHoof: 0 # T3
+    MutantPartBoarHoof: 2 # T1
+    MutantPartSeasonedBoarHoof: 5 # T2
+    MutantPartOldBoarHoof: 7 # T3
     # Bear
-    MutantPartBearClaw: 0
-    MutantPartBearPaw: 0
-    MutantPartBearEye: 5
+    MutantPartBearClaw: 5
+    MutantPartBearPaw: 9
+    MutantPartBearEye: 32
     ClothingHeadBear: 60
     #T1 -------- Health * 1
-    MutantPartBlindDogTail: 0
-    MutantPartFleshEye: 0
-    FoodMeatSpiderLeg: 0
-    MutantPartCatGland: 0
+    MutantPartBlindDogTail: 4
+    MutantPartFleshEye: 7
+    MutantPartCatGland: 7
     #T2 -------- Health * 1.8
-    MutantPartLeshiyRoot: 16
-    MutantPartPseudodogTail: 0
-    MutantPartSnorkFoot: 0
+    MutantPartLeshiyRoot: 15
+    MutantPartPseudodogTail: 10
+    MutantPartSnorkFoot: 15
     MutantPartPsiDogTail: 20
-    MutantPartFrogLeg: 0
+    MutantPartFrogLeg: 15
     #T3+ -------- Health * 3
-    MutantPartBloodsuckerTentacles: 50
-    MutantPartOraculeEye: 60
+    MutantPartBloodsuckerTentacles: 30
+    MutantPartOraculeEye: 30
     MutantPartPseudogiantHeart: 700
-    MutantPartZombieHand: 0
+    MutantPartZombieHand: 15
     MutantPartBloodsuckerHead: 160
     ClothingMaskChimera: 100
     MutantPartChimeraTooth: 200
     MutantPartIzlomArm: 70
-    MutantPartBurerBrain: 20
-    MutantPartControllerBrain: 35
-
+    MutantPartBurerBrain: 30
+    MutantPartControllerBrain: 45
+  # StalkerOW - End
   categories:
   - name: shop-category-weapons
     priority: 2
