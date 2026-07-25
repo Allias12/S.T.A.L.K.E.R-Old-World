@@ -495,9 +495,9 @@
       STWeaponRifleAKM: 12 # Worse AKM version for cheaper
       STWeaponSniperSKS: 3
       # 7.62x54
-      STWeaponSniperSVDliturgy: 60 # frag out my renechud
+      # STWeaponSniperSVDliturgy: 60 # later
       # explosive
-      DynamiteThree: 20 #coughing rookie vs HYDROGEN RENEGADE BOMB
+      # DynamiteThree: 20 # later 
   - name: shop-category-magazines
     priority: 2
     items:
