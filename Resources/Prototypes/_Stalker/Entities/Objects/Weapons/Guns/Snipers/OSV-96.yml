@@ -30,13 +30,13 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: 13x108Mag10
+        startingItem: 50bmgMag10
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/osv96_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/osv96_magout.ogg
         priority: 3
         whitelist:
           tags:
-          - 50bmgMag10
+          - Magazine50bmg
       gun_module_muzzle:
         name: Muzzle
         priority: 2
