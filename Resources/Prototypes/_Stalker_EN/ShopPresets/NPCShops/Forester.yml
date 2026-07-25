@@ -510,10 +510,10 @@
     MutantPartPsiDogTail: 20
     MutantPartFrogLeg: 15
     #T3+ -------- Health * 3
-    MutantPartBloodsuckerTentacles: 30
+    MutantPartBloodsuckerTentacles: 40
     MutantPartOraculeEye: 30
     MutantPartPseudogiantHeart: 700
-    MutantPartZombieHand: 15
+    MutantPartZombieHand: 5
     MutantPartBloodsuckerHead: 160
     ClothingMaskChimera: 100
     MutantPartChimeraTooth: 200
