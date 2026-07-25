@@ -324,6 +324,8 @@
     damage:
       types:
         Radiation: -0.15
+        Blunt: -1 #old world edit
+        Slash: -1 # old world edit
   - type: GrantsArtifactSlots
     slots: 0 # EN
   - type: Storage

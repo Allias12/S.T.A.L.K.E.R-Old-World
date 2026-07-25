@@ -23,7 +23,7 @@
     damage:
       types:
         Piercing: 20
-        Mutant: 80
+        Mutant: 100
 
 - type: entity
   id: STBullet357MagnumAP

@@ -1,153 +1,159 @@
 - type: shopPreset
-  id: NpcSidorEN # 0.75x Barman - Pending Economy Change
+  id: NpcSidorEN # 1
   minSellPrice: 5
   itemsForSale:
+
     # Thermal group - 1
-    ZoneArtifactFireball: 405
-    ZoneArtifactEye: 610
-    ZoneArtifactFlame: 1215
-    ZoneArtifactBunch: 1420
-    ZoneArtifactRock: 1215
-    ZoneArtifactSun: 2210
-    ZoneArtifactRoot: 2430
-    ZoneArtifactConflagration: 610
+    ZoneArtifactFireball: 540
+    ZoneArtifactEye: 810
+    ZoneArtifactFlame: 1620
+    ZoneArtifactBunch: 1890
+    ZoneArtifactRock: 1620
+    ZoneArtifactSun: 2950
+    ZoneArtifactRoot: 3240
+    ZoneArtifactConflagration: 810
     # Thermal group - 2
-    ZoneArtifactCristall: 2430
-    ZoneArtifactLithosphere: 4860
+    ZoneArtifactCristall: 3240
+    ZoneArtifactLithosphere: 6480
     # Electrical group - 1
-    ZoneArtifactSparkler: 405
-    ZoneArtifactBattery: 475
-    ZoneArtifactFlash: 1215
-    ZoneArtifactAccumulator: 1215
-    ZoneArtifactDiamond: 2210
-    ZoneArtifactCharger: 475
-    ArtMoon: 2430
-    ZoneArtifactTesla: 3645
-    ZoneArtifactIce: 4860
+    ZoneArtifactSparkler: 540
+    ZoneArtifactBattery: 810
+    ZoneArtifactFlash: 1620
+    ZoneArtifactAccumulator: 1620
+    ZoneArtifactDiamond: 2950
+    ZoneArtifactCharger: 810
+    ArtMoon: 3240
+    ZoneArtifactTesla: 4860
+    ZoneArtifactIce: 6480
     # Gravity group - 1
-    ArtMedusa: 405
-    ZoneArtifactFlower: 610
-    ZoneArtifactNightStar: 2430
-    ZoneArtifactWhirlwind: 550
-    ZoneArtifactPebble: 405
-    ZoneArtifactRosin: 610
-    ZoneArtifactStoneCube: 850
-    ZoneArtifactDarkCube: 3645
+    ArtMedusa: 540
+    ZoneArtifactFlower: 810
+    ZoneArtifactNightStar: 3240
+    ZoneArtifactWhirlwind: 810
+    ZoneArtifactPebble: 540
+    ZoneArtifactRosin: 810
+    ZoneArtifactStoneCube: 1215
+    ZoneArtifactDarkCube: 4860
     # Gravity group - 2
-    ZoneArtifactVyvert: 405
-    ZoneArtifactAmoeba: 610
-    ZoneArtifactFloodlight: 610
-    ZoneArtifactGravi: 1215
-    ZoneArtifactGoldfish: 4860
-    ZoneArtifactSpring: 2700
-    ZoneArtifactFocus: 3645
-    ZoneArtifactStuntman: 4860
-    ZoneArtifactDistorter: 4860
-    ZoneArtifactSoul: 3645
-    ZoneArtifactCompass: 2700
-    ZoneArtifactCrucifix: 3190
-    ZoneArtifactThorn: 1910
-    ZoneArtifactArf: 1910
-
+    ZoneArtifactVyvert: 540
+    ZoneArtifactAmoeba: 810
+    ZoneArtifactFloodlight: 810
+    ZoneArtifactGravi: 1620
+    ZoneArtifactGoldfish: 6480
+    ZoneArtifactSpring: 3600
+    ZoneArtifactFocus: 4860
+    ZoneArtifactStuntman: 6480
+    ZoneArtifactDistorter: 6480
+    ZoneArtifactSoul: 4860
+    ZoneArtifactCompass: 3600
+    ZoneArtifactCrucifix: 4250
+    ZoneArtifactThorn: 2550
+    ZoneArtifactArf: 2550
     # Acidic group - 1
-    ZoneArtifactToxic: 490
-    ZoneArtifactCytoplasm: 1215
-    ZoneArtifactBlood: 1215
-    ZoneArtifactMeat: 2430
-    ZoneArtifactKolobok: 3645
+    ZoneArtifactToxic: 650
+    ZoneArtifactCytoplasm: 1600
     ZoneArtifactBeer: 450
+    ZoneArtifactBlood: 1600
+    ZoneArtifactMeat: 3200
+    ZoneArtifactKolobok: 4800
     # Acidic group - 2
-    ZoneArtifactPellicle: 405
-    ZoneArtifactBaloon: 3645
+    ZoneArtifactPellicle: 535
+    ZoneArtifactBaloon: 4800
 
-    # Mutant parts
+    # Mutant parts - 1x price
 
-    #Boars -------- Health * T * 0.45
-    MutantPartBoarHoof: 130 # T1
-    MutantPartSeasonedBoarHoof: 255 # T2
-    MutantPartOldBoarHoof: 385 # T3
+    #Boars
+    MutantPartBoarHoof: 155 # T1
+    MutantPartSeasonedBoarHoof: 310 # T2
+    MutantPartOldBoarHoof: 465 # T3
 
-    #Bears ---------
-    MutantPartBearClaw: 245
-    MutantPartBearPaw: 390
-    MutantPartBearEye: 590
-    ClothingHeadBear: 700
+    #Bears
+    MutantPartBearClaw: 325
+    MutantPartBearPaw: 475
+    MutantPartBearEye: 690
+    ClothingHeadBear: 750
 
-    #T1 -------- Health * 1
-    MutantPartBlindDogTail: 90
-    MutantPartFleshEye: 190
-    FoodMeatSpiderLeg: 30
-    MutantPartCatGland: 290
+    #T1
+    MutantPartBlindDogTail: 105
+    MutantPartFleshEye: 230
+    FoodMeatSpiderLeg: 50
+    MutantPartCatGland: 320
 
-    #T2 -------- Health * 1.8
-    MutantPartLeshiyRoot: 515
-    MutantPartPseudodogTail: 285
-    MutantPartSnorkFoot: 475
-    MutantPartPsiDogTail: 400
-    MutantPartFrogLeg: 200
+    #T2
+    MutantPartLeshiyRoot: 630
+    MutantPartPseudodogTail: 345
+    MutantPartSnorkFoot: 575
+    MutantPartPsiDogTail: 475
+    MutantPartFrogLeg: 300
 
-    #T3 -------- Health * 3 Modified by Oracle
-    MutantPartBloodsuckerTentacles: 1375
-    MutantPartOraculeEye: 1050
-    MutantPartZombieHand: 570
-    MutantPartPseudogiantHeart: 6800
+    #T3
+    MutantPartBloodsuckerTentacles: 2750
+    MutantPartOraculeEye: 1800
+    MutantPartZombieHand: 750
+    MutantPartPseudogiantHeart: 9050
     ClothingMaskChimera: 1
     MutantPartChimeraTooth: 1
-    MutantPartIzlomArm: 815
-    MutantPartBurerBrain: 1500
-    MutantPartControllerBrain: 2625
-    MutantPartRustEgg: 1 #sido you fat chud scammer bastard give me more for this
+    MutantPartIzlomArm: 1650
+    MutantPartBurerBrain: 2000
+    MutantPartControllerBrain: 3500
+    MutantPartRustEgg: 50000
 
     # Meat
-    FoodMeatDogCooked: 75
-    STFoodMeatSpiderCooked: 40
-    FoodMeatBoarCooked: 115
-    FoodMeatSTBearCooked: 225
-    FoodMeatSTFishFilletCooked: 75
-    FoodMeatSTFishSteakCooked: 115
-    FoodMeatSTEelCooked: 190
-    STFoodMeatCvarci: 30
-    FoodMeatSTRatCooked: 5 # whatever
-    FoodMeatSTRatJerked: 10
-    FoodMeatSTDogJerkedSingle: 115
-    FoodMeatSTBoarJerkedSingle: 150
-    FoodMeatSTBearJerkedSingle: 265
-    FoodMeatSTSuckerJerkedSingle: 675
-    STFoodMeatSalo: 50
+    STFoodMeatSalo: 60
+    STFoodMeatSpiderCooked: 50
+    FoodMeatBoar: 55
+    FoodMeatDog: 25
+    FoodMeatSTBear: 65
+    FoodMeatBoarCooked: 150
+    FoodMeatDogCooked: 100
+    FoodMeatSTBearCooked: 300
+    FoodMeatSTFishFilletRaw: 50
+    FoodMeatSTFishSteakRaw: 100
+    FoodMeatSTEelRaw: 100
+    FoodMeatSTFishFilletCooked: 100
+    FoodMeatSTFishSteakCooked: 150
+    FoodMeatSTEelCooked: 250
+    STFoodMeatCvarci: 40
+    FoodMeatSTRatCooked: 10
+    FoodMeatSTRatJerked: 20 # 2x the profit!!!
+    FoodMeatSTDogJerkedSingle: 65
+    FoodMeatSTBoarJerkedSingle: 100
+    FoodMeatSTBearJerkedSingle: 205
+    FoodMeatSTSuckerJerkedSingle: 825
 
-# Cooking
-    FoodSTFreshCheese: 100
-    FoodSTRiceCooked: 250
+    # Cooking
+    FoodSTFreshCheese: 85
+    FoodSTRiceCooked: 310
     FoodSTPancakes: 250
-    FoodSTOnionRings: 150
-    FoodSTFriedEggs: 300
-    FoodSTBorscht: 600
-    FoodSTCabbageSoup: 550
-    FoodSTMeatStew: 850
-    FoodSTFriedFish: 450 # this one might need adjusting
-    FoodSTCakePlain: 475
-    FoodSTHrechanyky: 525
-    FoodSTSyrnyky: 900
-    FoodSTDeruny: 575
-    FoodSTKebabMeat: 400
-    FoodSTKebabVeggie: 275
-    FoodSTCakeBerry: 750 # might need adjusting
-    FoodSTSnorkSoup: 0 # he dont want it
-    FoodSTIceCream: 300
-    FoodSTBraid: 0
-    FoodSTAmbrosia: 0
-    FoodSTFrogLegs: 775
-    FoodSTOracleGumbo: 0
-    STFoodJarCherriesPickled: 1350
-    STFoodJarJamBerry: 1350
-    STFoodJarKvass: 2300
-    STFoodJarSalo: 350
-    STFoodJarEggs: 375
+    FoodSTOnionRings: 100
+    FoodSTFriedEggs: 250
+    FoodSTBorscht: 650
+    FoodSTCabbageSoup: 600
+    FoodSTMeatStew: 950
+    FoodSTFriedFish: 375
+    FoodSTCakePlain: 450
+    FoodSTHrechanyky: 500
+    FoodSTSyrnyky: 775
+    FoodSTDeruny: 450
+    FoodSTKebabMeat: 450
+    FoodSTKebabVeggie: 265
+    FoodSTCakeBerry: 900
+    FoodSTSnorkSoup: 500
+    FoodSTIceCream: 250
+    FoodSTBraid: 500
+    FoodSTAmbrosia: 5500 # worth more than a soul by a little bit
+    FoodSTFrogLegs: 800
+    FoodSTOracleGumbo: 1500
+    STFoodJarCherriesPickled: 2000
+    STFoodJarJamBerry: 2000
+    STFoodJarKvass: 3500
+    STFoodJarSalo: 500
+    STFoodJarEggs: 550
     STFoodJarMeatSausage: 775
-    STFoodJarMeatFishFillet: 300
-    STFoodJarMeatFishSteak: 850
-    STFoodJarMeatEel: 1250
-    STFoodJarWholeEelFermented: 2100
+    STFoodJarMeatFishFillet: 350
+    STFoodJarMeatFishSteak: 1000
+    STFoodJarMeatEel: 1450
+    STFoodJarWholeEelFermented: 3100
 
     # Values
     # Dollar: 25

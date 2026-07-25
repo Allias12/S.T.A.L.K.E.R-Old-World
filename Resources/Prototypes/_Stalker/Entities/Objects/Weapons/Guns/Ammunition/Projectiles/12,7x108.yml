@@ -1,6 +1,6 @@
 - type: entity
   parent: STBaseSHRBullet
-  id: Bullet13x108HPBT
+  id: Bullet50bmgHPBT
   name: bullet (12,7x108 rifle)
   categories: [ HideSpawnMenu ]
   components:
@@ -17,7 +17,7 @@
 
 - type: entity
   parent: STBaseSHRBullet
-  id: Bullet13x108FMJ
+  id: Bullet50bmgFMJ
   name: bullet (12,7x108 rifle)
   categories: [ HideSpawnMenu ]
   components:
@@ -26,13 +26,13 @@
     damage:
       types:
         Piercing: 90
-    ignoreResistances: true 
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 20
 
 - type: entity
   parent: STBaseSHRBullet
-  id: Bullet13x108PC
+  id: Bullet50bmgPC
   name: bullet (12,7x108 rifle)
   categories: [ HideSpawnMenu ]
   components:

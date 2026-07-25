@@ -244,8 +244,8 @@
   description: A true blessing of the pit, able to rend a mans soul and said to of been weld by sinew him self. you feel your soul beckoning you to hit a 360 no scope on some poor rookie.
   components:
   - type: Clothing
-    sprite: _Stalker_EN\Objects\Weapons\Guns\Snipers\Svdliturgy
+    sprite: _Stalker_EN/Objects/Weapons/Guns/Snipers/Svdliturgy.rsi
   - type: Item
-    sprite: _Stalker_EN\Objects\Weapons\Guns\Snipers\Svdliturgy
+    sprite: _Stalker_EN/Objects/Weapons/Guns/Snipers/Svdliturgy.rsi
   - type: Sprite
-    sprite: _Stalker_EN\Objects\Weapons\Guns\Snipers\Svdliturgy
+    sprite: _Stalker_EN/Objects/Weapons/Guns/Snipers/Svdliturgy.rsi

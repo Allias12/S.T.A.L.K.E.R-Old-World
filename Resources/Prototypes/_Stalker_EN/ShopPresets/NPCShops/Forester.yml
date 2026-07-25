@@ -510,8 +510,8 @@
     MutantPartPsiDogTail: 20
     MutantPartFrogLeg: 15
     #T3+ -------- Health * 3
-    MutantPartBloodsuckerTentacles: 30
-    MutantPartOraculeEye: 30
+    MutantPartBloodsuckerTentacles: 40
+    MutantPartOraculeEye: 60
     MutantPartPseudogiantHeart: 700
     MutantPartZombieHand: 15
     MutantPartBloodsuckerHead: 160
@@ -519,8 +519,8 @@
     MutantPartChimeraTooth: 200
     MutantPartIzlomArm: 70
     MutantPartBurerBrain: 30
-    MutantPartControllerBrain: 45
-  # StalkerOW - End
+    MutantPartControllerBrain: 80
+
   categories:
   - name: shop-category-weapons
     priority: 2
@@ -531,11 +531,11 @@
       STWeaponShotgunSaiga12: 350
       # Pistols
       WeaponPistolStalkerLP08: 90
-      STWeaponRevolverRH12: 1000
+      STWeaponRevolverRH12: 600
       # SMGs
       # Rifles
       STWeaponRifleM14: 250
-      STWeaponRifleStalkerAek971: 400
+      STWeaponRifleStalkerAek971: 450
       # Snipers
       STWeaponSniperVepr: 300
       STWeaponSniperSVDS: 600
@@ -556,16 +556,13 @@
       754Mag10: 35
       # 9x19
       LP08Drum: 20
-      # 13x108
-      13x108Mag10: 20
-      13x108FMJBox: 50
-      13x108HPBox: 40
+      # 50 bmg
+      50bmgMag10: 20
       # 9x39
       Base939Mag10: 10
       939Mag20: 25
       #1255
       AS12Mag: 25
-      Ammobox1255BP: 60
   - name: shop-category-ammunition
     priority: 3
     items:
@@ -583,6 +580,11 @@
       # 9x39
       STBox9x39SP5: 15 # T2
       STBox9x39PAB9: 25 # T3
+      #1255
+      Ammobox1255BP: 60
+      # 50 bmg
+      50bmgFMJBox: 100
+      50bmgHPBox: 60
   - name: shop-category-medicine
     priority: 4
     items:

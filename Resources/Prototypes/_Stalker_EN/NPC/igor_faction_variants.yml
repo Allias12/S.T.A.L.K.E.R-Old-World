@@ -100,3 +100,12 @@
   - type: BandsManaging
     shopListingsProto: STBandShopListings
     faction: Renegades
+
+#- type: entity
+#  parent: NPCIgorIvanovich
+#  id: NPCIgorIvanovichDeserters
+#  suffix: ST, Deserters
+#  components:
+#  - type: BandsManaging
+#    shopListingsProto: STBandShopListings
+#    faction: Deserter

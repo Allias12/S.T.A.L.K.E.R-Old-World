@@ -31,7 +31,7 @@
 
 - type: entity
   id: STCartridge1255BP
-  name: Патрон (12,7x55) БП
+  name: Bullet (12,7x55) FMJ
   parent: STCartridge1255PS12A
   components:
   - type: CartridgeAmmo

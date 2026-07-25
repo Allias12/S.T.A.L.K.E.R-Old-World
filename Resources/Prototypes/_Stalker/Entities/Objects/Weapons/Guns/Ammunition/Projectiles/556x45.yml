@@ -12,7 +12,7 @@
     projectileClass: 2
     damage:
       types:
-        Piercing: 13.5
+        Piercing: 18
         Mutant: 26 # EN
   # - type: StaminaDamageOnCollide
     # damage: 2
@@ -27,7 +27,7 @@
     projectileClass: 3
     damage:
       types:
-        Piercing: 14.5
+        Piercing: 22
         Mutant: 20 # EN
 
 - type: entity

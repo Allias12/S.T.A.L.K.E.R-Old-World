@@ -13,9 +13,9 @@
   - type: Sprite
     sprite: _Stalker_EN/Objects/Weapons/Guns/Rifles/grozaA1.rsi
   - type: Gun
-    fireRate: 6 # bit less DPS then SCAR due to lower firerate and weaker caliber
-    burstFireRate: 10 # after 3 bullets shot it goes on cooldown
-    burstCooldown: 0.2 # cooldown makes it shoot 3 bullets each 0.5 seconds or 6 bullets per 1 sec
+    fireRate: 4 # bit less DPS then SCAR due to lower firerate and weaker caliber
+    burstFireRate: 8 # after 3 bullets shot it goes on cooldown
+    burstCooldown: 0.35 # cooldown makes it shoot 3 bullets each 0.5 seconds or 6 bullets per 1 sec
     soundGunshot:
       path: /Audio/_Stalker/Effects/Guns/n_groza_shot.ogg
       params:
@@ -27,8 +27,7 @@
     availableModes:
     - Burst
     - SemiAuto
-    - FullAuto
-    angleDecay: 8.5 
+    angleDecay: 8.5
   - type: ItemSlots
     slots:
       gun_magazine:

@@ -131,7 +131,7 @@
       STKnifeShard: 85 # munny sink
       WeaponPistolGSH18: 1
       STWeaponSniperSVDMono: 85
-      ClothingBeltBandolierStalker: 5
+      STClothingBeltThrowingKnifes: 5
 
   - name: shop-category-magazines
     priority: 2

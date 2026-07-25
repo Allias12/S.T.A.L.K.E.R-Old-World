@@ -22,14 +22,16 @@
       coefficients:
         Blunt: 0.65 # EN, 0.9 -> 0.65
         Slash: 0.5
-        Piercing: 0.75 # EN, 0.8 -> 0.75
-        Compression: 0.4 # EN, 0.6 -> 0.4
+        Piercing: 0.7 # old world, 0.8 -> 0.7
+        Compression: 0.5 # old world, 0.6 -> 0.5
   - type: PersonalDamage # EN
     staminaDamage: -4
     interval: 1
     damage:
       types:
         Radiation: -0.25
+        Blunt: -2.5 # old world
+        Slash: -2.5 # old world edit
   - type: GrantsArtifactSlots
     slots: 0 # EN
 

@@ -36,20 +36,14 @@
           prob: 0.3
         - id: ClothingOuterCoatKevlarMonolithClean
           prob: 0.3
-        - id: ClothingOuterArmorSevaMonolithPriestClean
-          prob: 0.2
+        - id: ClothingOuterArmorSevaMonolithPriest
+          prob: 0.1
         - id: ClothingOuterArmorSevaMonolithClean
           prob: 0.3
         - id: ClothingOuterArmorSevaMonolithClean
           prob: 0.3
         - id: ClothingOuterArmorSevaMonolithClean
           prob: 0.3
-        - id: ClothingOuterArmorMonolithClean
-          prob: 0.4
-        - id: ClothingOuterArmorMonolithClean
-          prob: 0.4
-        - id: ClothingOuterArmorMonolithClean
-          prob: 0.4
         - id: ClothingOuterArmorMonolithClean
           prob: 0.4
         - id: ClothingOuterArmorMonolithClean
@@ -139,33 +133,33 @@
           prob: 0.3
         # modules STModuleSMGGripT1
         - id: STModuleScopeRiflesT2Nato
-          prob: 0.45
+          prob: 0.3
         - id: STModuleScopeRiflesT2Nato
-          prob: 0.45
+          prob: 0.3
         - id: STModuleScopeRiflesT2Nato
-          prob: 0.45
+          prob: 0.3
         - id: STModuleSniperSightT2
-          prob: 1
+          prob: 0.7
         - id: STModuleSMGGripT2
-          prob: 0.45
+          prob: 0.3
         - id: STModuleSMGGripT2
-          prob: 0.45
+          prob: 0.3
         - id: STModuleSMGGripT2
-          prob: 0.45
+          prob: 0.3
         - id: STModuleSilencerRiflesT2Nato
-          prob: 0.45
+          prob: 0.3
         - id: STModuleSilencerRiflesT2Nato
-          prob: 0.45
+          prob: 0.3
         - id: STModuleSilencerRiflesT2Nato
-          prob: 0.45
+          prob: 0.3
         - id: STModuleSilencerRiflesT2Ru
-          prob: 0.45
+          prob: 0.3
         - id: STModuleSilencerRiflesT2Ru
-          prob: 0.45
+          prob: 0.3
         - id: STModuleSilencerRiflesT2Ru
-          prob: 0.45
+          prob: 0.3
         - id: STModuleSilencerSniperT2
-          prob: 1
+          prob: 0.7
         # mags
         - id: BaseMP5Mag
           prob: 0.25

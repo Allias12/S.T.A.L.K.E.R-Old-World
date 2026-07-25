@@ -26,7 +26,7 @@
       - 0,0,5,3
       - 7,0,12,3
   - type: Armor
-    armorClass: 1
+    armorClass: 2 #en edit
     modifiers:
       flatReductions:
         Heat: 4
@@ -36,7 +36,7 @@
       coefficients:
         Blunt: 0.9
         Slash: 0.9
-        Piercing: 0.9
+        Piercing: 0.75 # en edit
         Heat: 0.50
         Caustic: 0.40
         Shock: 0.70

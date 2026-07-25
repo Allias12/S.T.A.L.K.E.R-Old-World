@@ -46,7 +46,7 @@
     projectileClass: 1
     damage:
       types:
-        Piercing: 14
+        Piercing: 10
         Mutant: 10 # EN
 
 - type: entity
@@ -71,7 +71,7 @@
     projectileClass: 2
     damage:
       types:
-        Piercing: 15
+        Piercing: 13
         Mutant: 16
 
 - type: entity

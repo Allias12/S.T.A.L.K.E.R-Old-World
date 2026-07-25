@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseAmmoBoxStalker
-  id: 13x108FMJBox
-  name: box of bullets (13x108) FMJ
+  id: 50bmgFMJBox
+  name: box of bullets (50 BMG) FMJ
   description: For the OSV-96 rifle, comes in a box of 10. Can penetrate level 4 armor.
   suffix: Stalker
   components:
@@ -9,10 +9,10 @@
     magState: 76254ammo
   - type: BallisticAmmoProvider
     capacity: 10
-    proto: STCartridge13x108FMJ
+    proto: STCartridge50bmgFMJ
     whitelist:
       tags:
-        - STCartridge13x108
+        - STCartridge50bmg
   - type: Sprite
     layers:
     - state: 13108
@@ -22,7 +22,7 @@
 
 - type: entity
   parent: BaseAmmoBoxStalker
-  id: 13x108PCBox
+  id: 50bmgPCBox
   name: box of bullets (12,7x108) ПС
   description: Для винтовки OSV-96, в коробке 10 штук. Обеспечивает пробитие 5 класса брони.
   suffix: Stalker
@@ -31,10 +31,10 @@
       magState: 76254ammo
     - type: BallisticAmmoProvider
       capacity: 10
-      proto: STCartridge13x108PC
+      proto: STCartridge50bmgPC
       whitelist:
         tags:
-          - STCartridge13x108
+          - STCartridge50bmg
     - type: Sprite
       layers:
         - state: 13108
@@ -44,14 +44,14 @@
         - state: t3
 
 - type: entity
-  parent: 13x108PCBox
-  id: 13x108HPBox
-  name: Box of Bullets (13x108) HP BT
+  parent: 50bmgPCBox
+  id: 50bmgHPBox
+  name: Box of Bullets (50 BMG) HP BT
   description: For the OSV-96 rifle, 10 rounds per box. Useless against armor.
   suffix: Stalker
   components:
     - type: BallisticAmmoProvider
-      proto: STCartridge13x108HPBT
+      proto: STCartridge50bmgHPBT
     - type: Sprite
       layers:
         - state: 13108

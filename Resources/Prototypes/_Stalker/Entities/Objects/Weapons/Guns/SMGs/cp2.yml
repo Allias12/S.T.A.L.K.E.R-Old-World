@@ -91,9 +91,10 @@
 
 
 - type: entity
-  name: СР-2 «Вереск» серафимов
+  name: СР-2 «Liturgy»
   parent: STWeaponSMGStalkerCP2Veresk
   id: STWeaponSMGStalkerCP2VereskLiturgy
+  description: A great smg able to tear through hoards of people.
   components:
     - type: Item
       sprite: _Stalker.rsi
@@ -101,9 +102,9 @@
       shape:
         - 0,0,5,1
     - type: Sprite
-      sprite: _Stalker_EN\Objects\Weapons\Guns\_Skins\Veresk_liturgy
+      sprite: _Stalker_EN/Objects/Weapons/Guns/_Skins/Veresk_liturgy.rsi
     - type: Clothing
-      sprite: _Stalker_EN\Objects\Weapons\Guns\_Skins\Veresk_liturgy
+      sprite: _Stalker_EN/Objects/Weapons/Guns/_Skins/Veresk_liturgy.rsi
     - type: ItemSlots
       slots:
         gun_magazine:
