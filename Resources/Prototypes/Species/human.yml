@@ -40,7 +40,7 @@
   id: MobHumanMarkingLimits
   points:
     Special: # the cat ear joke
-      points: 1
+      points: 0
       required: false
     Hair:
       points: 1
@@ -55,7 +55,7 @@
       points: 0
       required: false
     HeadTop:
-      points: 0 # EN change - removes furry ears
+      points: 1 # StalkerOW - Added mutated ears!
       required: false
     UndergarmentTop:
       points: 1
