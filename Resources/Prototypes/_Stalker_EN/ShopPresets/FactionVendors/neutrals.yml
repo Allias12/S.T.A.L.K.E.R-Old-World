@@ -405,6 +405,9 @@
       # OUTERCLOTHING
       # CLOAK
       # LEGS
+      ClothingLegsskirtshort: 50
+      ClothingLegsskirtmedium: 50
+      ClothingLegsskirtlong: 50
       ClothingLegsJeansBlue: 10
       ClothingLegsJeansStalker: 10
       ClothingLegsJeansGreenCargo: 10

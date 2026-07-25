@@ -293,7 +293,7 @@
         ZoneArtifactDetectorSpruce: 2200 # T2
         ZoneArtifactDetectorBarracuda: 3500 # T3
         Veles: 4500 # T3
-        ZoneArtifactDetectorSeaDevil: 10000   
+        ZoneArtifactDetectorSeaDevil: 10000
         #ZoneArtifactDetectorBear: 16000 #T4 I'm good with adding this
 
         # RP Items / Anomaly Destructors
@@ -437,6 +437,9 @@
         ClothingLegsGorka6b: 50
         ClothingLegsNavyPants: 50
         ClothingLegsRussianNumber: 50
+        ClothingLegsskirtshort: 50
+        ClothingLegsskirtmedium: 50
+        ClothingLegsskirtlong: 50
         # FEET
         ClothingShoesColorBlack: 30
         ClothingShoesBootsWork: 30
