@@ -340,9 +340,9 @@
   - type: Trash
     time: 300
   - type: Sprite
-    sprite: _Stalker_EN\Objects\Consumable\Drinks\whitemonster.rsi
+    sprite: _Stalker_EN/Objects/Consumable/Drinks/whitemonster.rsi
   - type: Item
-    sprite: _Stalker_EN\Objects\Consumable\Drinks\whitemonster.rsi
+    sprite: _Stalker_EN/Objects/Consumable/Drinks/whitemonster.rsi
 
 - type: entity
   parent: STEnergyDrink
@@ -353,6 +353,6 @@
   - type: Trash
     time: 300
   - type: Sprite
-    sprite: _Stalker_EN\Objects\Consumable\Drinks\whitemonster.rsi
+    sprite: _Stalker_EN/Objects/Consumable/Drinks/pinkmonster.rsi
   - type: Item
-    sprite: _Stalker_EN\Objects\Consumable\Drinks\whitemonster.rsi
+    sprite: _Stalker_EN/Objects/Consumable/Drinks/pinkmonster.rsi
