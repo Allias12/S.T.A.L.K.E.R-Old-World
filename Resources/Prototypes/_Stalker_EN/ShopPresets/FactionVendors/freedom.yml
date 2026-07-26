@@ -98,7 +98,6 @@
         # Nato Rifles
         STWeaponRifleM16: 2500 # T2
         STWeaponRifleM16M203: 3500 # T2
-        STWeaponRifleSCARH: 6000 # T3
         STWeaponRifleFAL: 1750 # T3
         STWeaponRifleGalil: 7000 # T3
         # Snipers
@@ -185,7 +184,7 @@
         STEnergyDrink: 100
         STEnergyDrinkMonster: 150
         STEnergyDrinkRevo: 150
-        STEnergyDrinkPinkMonster: 100 
+        STEnergyDrinkPinkMonster: 100
         STDrinkBeerCanBaltic: 90
         DrinkCossackVodkaBottleFull: 55
         STFoodBreadPlain: 35
