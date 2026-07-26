@@ -483,7 +483,7 @@
       # 5,45x39
       STWeaponRifleAKS74U: 3
       STWeaponRifleAKS74: 5
-      STWeaponRifleRPK74Vedma: 17
+      STWeaponRifleRPK74Vedma: 14
       STWeaponRifleOC14Liturgia: 9
       # 5.56
       STWeaponRifleM16: 10
@@ -492,7 +492,7 @@
       STWeaponSMGMP5: 3
       STWeaponSMGStalkerCP2VereskLiturgy: 10
       # 7,62x39
-      STWeaponRifleAKM: 18 # Worse AKM version for cheaper
+      STWeaponRifleAKM: 15 # Worse AKM version for cheaper
       STWeaponSniperSKS: 3
       # 7.62x54
       #STWeaponSniperSVDliturgy: 60 # frag out my renechud
