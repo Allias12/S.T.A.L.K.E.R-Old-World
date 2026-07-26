@@ -248,6 +248,7 @@
       STElasticRubberRed: 1
       STElasticRubberGreen: 1
       STElasticRubberBlue: 1
+      HandLabeler: 75 # OW change
       # Cameras
       STCamera: 750
       STCameraVintage: 1200

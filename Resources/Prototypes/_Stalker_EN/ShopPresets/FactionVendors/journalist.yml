@@ -77,6 +77,7 @@
         STElasticRubberGreen: 1
         STElasticRubberBlue: 1
         FoldedFlagHelper: 250
+        HandLabeler: 75 # OW change
         # Cameras
         STCamera: 750
         STCameraVintage: 1200

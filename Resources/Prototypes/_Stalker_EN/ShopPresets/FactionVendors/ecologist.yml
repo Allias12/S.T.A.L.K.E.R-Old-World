@@ -115,6 +115,11 @@
     - name: shop-category-weapons
       priority: 1
       items:
+        # --- OW changes start ---
+        # Melee
+        STThrowingknifeBlue: 250
+        STThrowingknifeYellow: 500
+        # --- OW changes stop ---
         # Pistols
         WeaponPistolStalkerGlock: 200
         STWeaponRevolverRugerRedhawk: 750
@@ -252,6 +257,7 @@
           # Belts
         ClothingBeltBandolierStalker: 50
         ClothingBeltMedicalStalker: 75
+        STClothingBeltThrowingKnifes: 200 # OW change
 
     - name: shop-category-raincoats-and-gasmasks
       priority: 8
