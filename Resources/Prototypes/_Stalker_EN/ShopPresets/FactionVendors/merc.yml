@@ -93,6 +93,8 @@
     MutantPartIzlomArm: 625
     MutantPartBurerBrain: 1000
     MutantPartControllerBrain: 2000
+    ClothingMaskChimera: 100000
+    MutantPartChimeraTooth: 50000
 
   categories:
     - name: shop-category-weapons

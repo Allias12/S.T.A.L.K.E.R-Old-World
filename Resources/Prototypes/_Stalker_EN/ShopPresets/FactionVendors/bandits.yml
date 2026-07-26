@@ -91,12 +91,12 @@
     MutantPartOraculeEye: 1050
     MutantPartZombieHand: 570
     MutantPartPseudogiantHeart: 6800
-    ClothingMaskChimera: 1
-    MutantPartChimeraTooth: 1
     MutantPartIzlomArm: 815
     MutantPartBurerBrain: 1500
     MutantPartControllerBrain: 2625
     MutantPartRustEgg: 40000
+    ClothingMaskChimera: 75000
+    MutantPartChimeraTooth: 37500
     # Meat
     FoodMeatDogCooked: 75
     STFoodMeatSpiderCooked: 40

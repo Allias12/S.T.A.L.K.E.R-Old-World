@@ -28,14 +28,14 @@ public sealed partial class RitualChasmComponent : Component
     ///         and then floored to determine how many entities to throw back
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public float RewardedPerTier = 1.4f;
+    public float RewardedPerTier = 0.1f;
 
     /// <summary>
     ///     Multiplied by amount of teeth of given people,
     ///         and then floored to determine how many entities to throw back
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public float RewardedPerTooth = 2f;
+    public float RewardedPerTooth = 6f;
 
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public EntProtoId RewardedEntityProtoId = "ToothStalker";

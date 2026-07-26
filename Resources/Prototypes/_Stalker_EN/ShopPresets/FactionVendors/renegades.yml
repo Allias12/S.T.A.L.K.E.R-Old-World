@@ -94,7 +94,8 @@
     MutantPartPseudogiantHeart: 2800
     MutantPartZombieHand: 520
     MutantPartIzlomArm: 680
-    MutantPartChimeraTooth: 3300 # nerfed for plans of nerfing the mutant soon
+    ClothingMaskChimera: 50000
+    MutantPartChimeraTooth: 75000
     MutantPartBurerBrain: 1500
     MutantPartControllerBrain: 2500
     MutantPartRustEgg: 40000
