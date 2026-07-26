@@ -85,6 +85,10 @@
       items:
         # Melee
         STMachete: 50
+        # --- OW changes start ---
+        STThrowingknifeBlue: 250
+        STThrowingknifeYellow: 500
+        # --- OW changes stop ---
         # Pistols
         STWeaponPistolP99: 600
         STWeaponPistolM1911: 1000
@@ -231,6 +235,10 @@
         ClothingBeltWebbingHolsterFreedomDefender: 600
         STClothingCapeTacticalRigBrown: 800
         STClothingCapeTacticalRigGreen: 800
+        # --- OW changes start ---
+        ClothingBeltMedicalStalker: 550
+        STClothingBeltThrowingKnifes: 200
+        # --- OW changes stop ---
 
     - name: shop-category-raincoats-and-gasmasks
       priority: 8
@@ -305,6 +313,7 @@
         STElasticRubberBlue: 1
         FoldedFlagFree: 250
         BoxFolderGreenEmpty: 25
+        HandLabeler: 75 # OW change
         # Cameras
         STCamera: 750
         STCameraVintage: 1200

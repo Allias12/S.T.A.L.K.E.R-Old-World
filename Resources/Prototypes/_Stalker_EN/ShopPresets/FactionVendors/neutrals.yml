@@ -111,6 +111,11 @@
   - name: shop-category-weapons
     priority: 1
     items:
+      # --- OW changes start ---
+      # Melee
+      STThrowingknifeBlue: 250
+      STThrowingknifeYellow: 500
+      # --- OW changes stop ---
       # Pistols
       STWeaponPistolM1911: 1200
       WeaponPistolStalkerTT: 50 # T1
@@ -262,6 +267,7 @@
       ClothingBeltTarzanOrange: 200 # T1 - PVP
       ClothingBeltWebbingHolsterLoner: 500 # t3? idk man
       STClothingCapeTacticalRigBrown: 600
+      ClothingBeltMedicalStalker: 450 # OW change
       # Containers
       MedkitCMSStalker: 250 # T1
       MedkitGrizzlyStalker: 850 # T2
@@ -333,6 +339,7 @@
       STElasticRubberGreen: 1
       STElasticRubberBlue: 1
       FoldedFlagHelper: 250
+      HandLabeler: 75 # OW change
       # Cameras
       STCamera: 750
       STCameraVintage: 1200

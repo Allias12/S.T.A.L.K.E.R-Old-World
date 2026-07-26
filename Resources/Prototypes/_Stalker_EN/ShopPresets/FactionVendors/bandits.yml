@@ -159,6 +159,10 @@
         STCombatKnife: 25
         STButterflyKnife: 50
         StalkerBallBat: 50
+        # --- OW changes start ---
+        STThrowingknifeBlue: 250
+        STThrowingknifeYellow: 500
+        # --- OW changes stop ---
         # Pistols
         STWeaponPistolC96: 400 # literally a worse HiPower :skull:
         STWeaponPistolM1911Chrome: 1000
@@ -341,6 +345,10 @@
         ClothingBeltTarzanBlack: 200 # T1 - PvP
         ClothingBeltWebbingHolsterMercBandit: 650
         STClothingCapeTacticalRigBlack: 800
+        # --- OW changes start ---
+        ClothingBeltMedicalStalker: 600
+        STClothingBeltThrowingKnifes: 200
+        # --- OW changes stop ---
 
     - name: shop-category-raincoats-and-gasmasks
       priority: 8
@@ -409,6 +417,7 @@
         STElasticRubberBlue: 1
         FoldedFlagBand: 250
         STRag: 10
+        HandLabeler: 75 # OW change
         # Cameras
         STCamera: 750
         STCameraVintage: 1200

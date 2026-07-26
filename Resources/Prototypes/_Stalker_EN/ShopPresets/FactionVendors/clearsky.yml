@@ -326,6 +326,7 @@
       ClothingBeltWebbingHolsterStalkerZarya: 500
       STClothingCapeTacticalRigBlack: 800
       STClothingCapeTacticalRigBrown: 800
+      ClothingBeltMedicalStalker: 450 # OW
       # Containers
       MedkitCMSStalker: 450 # T1
       MedkitGrizzlyStalker: 850 # T2
@@ -410,6 +411,7 @@
       STElasticRubberGreen: 1
       STElasticRubberBlue: 1
       FoldedFlagCS: 250
+      HandLabeler: 75 # OW change
       # Cameras
       STCamera: 750
       STCameraVintage: 1200

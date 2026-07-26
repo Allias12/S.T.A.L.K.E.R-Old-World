@@ -39,6 +39,11 @@
     - name: shop-category-weapons
       priority: 1
       items:
+        # --- OW changes start ---
+        # Melee
+        STThrowingknifeBlue: 250
+        STThrowingknifeYellow: 500
+        # --- OW changes stop ---
         # Pistols
         WeaponPistolStalkerAPS: 500 #T2
         WeaponPistolStalkerTT: 250
@@ -186,6 +191,10 @@
         ClothingBeltWebbingHolsterDolgPS5M: 700 # t3 belt
         STClothingCapeTacticalRigBlack: 800
         STClothingCapeTacticalRigRed: 800
+        # --- OW changes start ---
+        ClothingBeltMedicalStalker: 650
+        STClothingBeltThrowingKnifes: 200
+        # --- OW changes stop ---
 
     - name: shop-category-raincoats-and-gasmasks
       priority: 8
@@ -257,6 +266,7 @@
         STElasticRubberGreen: 1
         STElasticRubberBlue: 1
         FoldedFlagDuty: 250
+        HandLabeler: 75 # OW change
         # Cameras
         STCamera: 750
         STCameraVintage: 1200
