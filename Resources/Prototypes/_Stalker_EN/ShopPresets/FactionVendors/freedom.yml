@@ -95,6 +95,7 @@
         STWeaponShotgunSPAS: 2000 # T3
         # SMGs
         STWeaponSMGMP5: 1800 # T3
+        STWeaponSMGThompson: 4000 # enjoy
         # Nato Rifles
         STWeaponRifleM16: 2500 # T2
         STWeaponRifleM16M203: 3500 # T2
@@ -123,6 +124,7 @@
         545Mag20: 200
         BaseTommyGunMag: 350
         TommyGunDrum2: 1600
+        TommyGunBigDrum: 3000
 
     - name: shop-category-ammunition
       priority: 3

@@ -92,8 +92,8 @@
     MutantPartOraculeEye: 1050
     MutantPartZombieHand: 570
     MutantPartPseudogiantHeart: 6800
-    ClothingMaskChimera: 1
-    MutantPartChimeraTooth: 1
+    ClothingMaskChimera: 75000
+    MutantPartChimeraTooth: 37500
     MutantPartIzlomArm: 815
     MutantPartBurerBrain: 1500
     MutantPartControllerBrain: 2625
@@ -187,6 +187,7 @@
         STWeaponSMGMP5: 2600
         STWeaponSMGPP19: 3300
         STWeaponSMGPP1901: 2000
+        STWeaponSMGThompson: 5000
         # Rifles
         STWeaponRifleSaiga545: 1750
         STWeaponRifleAKS74U: 2000
@@ -228,6 +229,8 @@
         MP40Mag: 150
         STSpeedLoader45ACPEmpty: 100
         PP91Mag: 200
+        BaseTommyGunMag: 350
+        TommyGunDrum2: 1600
 
     - name: shop-category-ammunition
       priority: 3

@@ -91,8 +91,8 @@
     MutantPartOraculeEye: 1800
     MutantPartZombieHand: 750
     MutantPartPseudogiantHeart: 9050
-    ClothingMaskChimera: 1
-    MutantPartChimeraTooth: 1
+    ClothingMaskChimera: 100000
+    MutantPartChimeraTooth: 50000
     MutantPartIzlomArm: 1650
     MutantPartBurerBrain: 2000
     MutantPartControllerBrain: 3500

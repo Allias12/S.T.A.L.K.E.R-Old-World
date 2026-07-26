@@ -97,6 +97,8 @@
     MutantPartBurerBrain: 1500
     MutantPartControllerBrain: 2625
     MutantPartRustEgg: 40000
+    ClothingMaskChimera: 75000
+    MutantPartChimeraTooth: 37500
     # Meat
     FoodMeatDogCooked: 75
     STFoodMeatSpiderCooked: 40
