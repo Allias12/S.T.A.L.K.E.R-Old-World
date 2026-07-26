@@ -123,8 +123,8 @@
 
     #7.62x39
     STWeaponRifleAKM: 1500
-    STWeaponRifleAK103: 2500
-    STWeaponRifleAK103MonoClean: 2950
+    #STWeaponRifleAK103: 2500
+    #STWeaponRifleAK103MonoClean: 2950
     STWeaponRifleStalkerAK104: 2750
     STWeaponMachineGunRPD: 4500
     STWeaponSniperSKS: 350

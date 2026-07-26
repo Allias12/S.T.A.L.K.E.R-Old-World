@@ -61,62 +61,118 @@
   id: MonolithPremium
   minSellPrice: 1
   itemsForSale:
-    # Thermal group - 1
-    ZoneArtifactFireball: 1
-    ZoneArtifactEye: 2
-    ZoneArtifactFlame: 5
-    ZoneArtifactBunch: 5
-    ZoneArtifactRock: 5
-    ZoneArtifactSun: 8
-    ZoneArtifactRoot: 8
-    ZoneArtifactConflagration: 2
-    # Thermal group - 2
-    ZoneArtifactCristall: 8
-    ZoneArtifactLithosphere: 10
-    # Electrical group - 1
-    ZoneArtifactSparkler: 1
-    ZoneArtifactBattery: 2
-    ZoneArtifactFlash: 5
-    ZoneArtifactAccumulator: 5
-    ZoneArtifactDiamond: 8
-    ZoneArtifactCharger: 2
-    ArtMoon: 5
-    ZoneArtifactTesla: 10
-    ZoneArtifactIce: 10
-    # Gravity group - 1
-    ArtMedusa: 1
-    ZoneArtifactFlower: 1
-    ZoneArtifactNightStar: 8
-    ZoneArtifactWhirlwind: 1
-    ZoneArtifactPebble: 1
-    ZoneArtifactRosin: 1
-    ZoneArtifactStoneCube: 5
-    ZoneArtifactDarkCube: 10
-    # Gravity group - 2
-    ZoneArtifactVyvert: 1
-    ZoneArtifactAmoeba: 2
-    ZoneArtifactFloodlight: 1
-    ZoneArtifactGravi: 8
-    ZoneArtifactGoldfish: 10
-    ZoneArtifactSpring: 10
-    ZoneArtifactFocus: 10
-    ZoneArtifactStuntman: 10
-    ZoneArtifactDistorter: 10
-    ZoneArtifactSoul: 10
-    ZoneArtifactCompass: 8
-    ZoneArtifactCrucifix: 10
-    ZoneArtifactThorn: 5
-    ZoneArtifactArf: 5
-    # Acidic group - 1
-    ZoneArtifactToxic: 1
-    ZoneArtifactCytoplasm: 2
-    ZoneArtifactBlood: 2
-    ZoneArtifactMeat: 5
-    ZoneArtifactKolobok: 8
-    ZoneArtifactBeer: 1
-    # Acidic group - 2
-    ZoneArtifactPellicle: 1
-    ZoneArtifactBaloon: 8
+    # Stalker OW - Start
+    #Zone forbid my heavily staff watched and rp required end game antag faction get to have fun with good gear,
+    # without heavy farming of often meta'd resources, no one is bringing full T3 artifact loadouts to rf and limansk 24/7
+    #  so shop prices shouldn't be balanced around it
+
+    # Thermal group - T1
+    ZoneArtifactFireball: 2
+
+    # Thermal group - T2
+    ZoneArtifactEye: 5
+    ZoneArtifactConflagration: 5
+
+    # Thermal group - T3
+    ZoneArtifactFlame: 10
+    ZoneArtifactBunch: 10
+
+    # Thermal group - T3 North Only
+    ZoneArtifactRock: 15
+
+    # Thermal group - T4
+    ZoneArtifactSun: 45
+    ZoneArtifactRoot: 45
+    ZoneArtifactCristall: 45
+    # Thermal group - T5
+    ZoneArtifactLithosphere: 100
+
+
+    # Electrical group - T1
+    ZoneArtifactSparkler: 2
+
+    # Electrical group - T2
+    ZoneArtifactBattery: 5
+    ZoneArtifactCharger: 5
+
+    # Electrical group - T3
+    ZoneArtifactFlash: 10
+    ZoneArtifactAccumulator: 10
+
+    # Electrical group - T3 North Only
+    ArtMoon: 15
+
+    # Electrical group - T4
+    ZoneArtifactDiamond: 45
+
+    # Electrical group - T5
+    ZoneArtifactTesla: 100
+    ZoneArtifactIce: 100
+
+
+    # Gravity group - T1
+    ArtMedusa: 2
+    ZoneArtifactVyvert: 2
+    ZoneArtifactPebble: 2
+    ZoneArtifactWhirlwind: 2
+    ZoneArtifactBeer: 3
+
+    # Gravity group - T2
+    ZoneArtifactAmoeba: 5
+    ZoneArtifactRosin: 5
+
+    # Gravity group - T3
+    ZoneArtifactFlower: 10
+    ZoneArtifactStoneCube: 10
+
+    # Gravity group - T4
+    ZoneArtifactNightStar: 45
+    ZoneArtifactGravi: 45
+
+    # Gravity group - T5
+    ZoneArtifactDarkCube: 100
+    ZoneArtifactGoldfish: 100
+    ZoneArtifactSpring: 100
+    ZoneArtifactFocus: 100
+    ZoneArtifactStuntman: 100
+    ZoneArtifactDistorter: 100
+
+
+    # Spatial group - T1
+    ZoneArtifactFloodlight: 2
+    ZoneArtifactFloodlightRave: 15
+    # Spatial group - T2
+    ZoneArtifactMagneticFlower: 5
+
+    # Spatial group - T3
+    ZoneArtifactThorn: 15
+    ZoneArtifactArf: 10
+
+    # Spatial group - T4
+    ZoneArtifactCompass: 45
+    ZoneArtifactAtom: 45
+    # Spatial group - T5
+    ZoneArtifactSoul: 100
+    ZoneArtifactCrucifix: 100
+
+
+    # Acidic group - T1
+    ZoneArtifactPellicle: 2
+    ZoneArtifactToxic: 2
+
+    # Acidic group - T2
+    ZoneArtifactBlood: 5
+    ZoneArtifactCytoplasm: 5
+
+    # Acidic group - T3
+    ZoneArtifactMeat: 10
+
+    # Acidic group - T4
+    ZoneArtifactKolobok: 45
+    ZoneArtifactBaloon: 45
+
+    # Acidic group - T5
+
 
   categories:
   - name: shop-category-weapons
@@ -130,7 +186,7 @@
       STSharpenedKnife: 1
       STKnifeShard: 85 # munny sink
       WeaponPistolGSH18: 1
-      STWeaponSniperSVDMono: 85
+      #STWeaponSniperSVDMono: 85 - StalkerOW: Removed until T4 is back.
       STClothingBeltThrowingKnifes: 5
 
   - name: shop-category-magazines
@@ -144,15 +200,15 @@
     items:
       ClothingOuterArmorSevaMonolithPriest: 15
       ClothingHeadHelmetBerill5MMonolith: 8
-      ClothingHeadHelmetBulatMonolith: 10
-      ClothingOuterArmorBerill5MMonolith: 50
+      #ClothingHeadHelmetBulatMonolith: 10
+      #ClothingOuterArmorBerill5MMonolith: 50 - StalkerOW: Removed until T4 is back.
 
   - name: shop-category-grenades
     priority: 4
     items:
-      RGD5Grenade: 3
-      DG05SmokeGrenade: 2
-
+      RGD5Grenade: 1
+      DG05SmokeGrenade: 1
+      #Grenades shouldn't cost more than one shard, they should be encouraged to be used
   - name: shop-category-medicine
     priority: 5
     items:
