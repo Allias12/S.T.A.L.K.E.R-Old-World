@@ -49,6 +49,8 @@
   - type: Tag
     tags:
     - Stalkertooth
+  - type: Item
+    size: Tiny
   - type: PhysicalComposition
     materialComposition:
       Credit: 1
