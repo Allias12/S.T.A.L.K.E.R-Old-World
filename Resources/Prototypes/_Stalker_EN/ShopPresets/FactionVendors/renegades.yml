@@ -483,21 +483,21 @@
       # 5,45x39
       STWeaponRifleAKS74U: 3
       STWeaponRifleAKS74: 5
-      STWeaponRifleRPK74Vedma: 11
+      STWeaponRifleRPK74Vedma: 14
       STWeaponRifleOC14Liturgia: 9
       # 5.56
-      STWeaponRifleM16: 9
+      STWeaponRifleM16: 10
       # SMGS
       STWeaponSMGPPSh41: 5
       STWeaponSMGMP5: 3
       STWeaponSMGStalkerCP2VereskLiturgy: 10
       # 7,62x39
-      STWeaponRifleAKM: 12 # Worse AKM version for cheaper
+      STWeaponRifleAKM: 15 # Worse AKM version for cheaper
       STWeaponSniperSKS: 3
       # 7.62x54
       #STWeaponSniperSVDliturgy: 60 # frag out my renechud
       # explosive
-      #DynamiteThree: 20 #coughing rookie vs HYDROGEN RENEGADE BOMB
+      #DynamiteThree: 25 #coughing rookie vs HYDROGEN RENEGADE BOMB
   - name: shop-category-magazines
     priority: 2
     items:
@@ -532,9 +532,9 @@
     items:
       # ARMOR
       # outerClothing
-      STClothingOuterArmorLightPlateVestBasePSZ7rene: 22
+      STClothingOuterArmorLightPlateVestBasePSZ7rene: 38
       # head
-      ClothingHeadHelmetVityazSkull3: 12 # this is a vityaz, youre paying a drip tax
-      ClothingMaskRenegate: 5 # T3
+      ClothingHeadHelmetVityazSkull3: 16 # this is a vityaz, youre paying a drip tax
+      ClothingMaskRenegate:  18 # T3 zenith but with flat 1 rad resist
       # misc
       ClothingNeckToothNecklace: 1
