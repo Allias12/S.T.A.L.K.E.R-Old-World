@@ -92,7 +92,7 @@
       activated: 1.0
     - type: ZoneAnomaly
       detectedLevel: 2
-      activationDelay: 12
+      activationDelay: 6
       preparingDelay: 0
       chargingTime: 7
     - type: Sprite
