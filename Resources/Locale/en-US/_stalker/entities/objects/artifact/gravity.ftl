@@ -37,3 +37,6 @@ ent-ZoneArtifactWhirlwind = Whirlwind
 ent-ZoneArtifactDarkCube = { ent-BaseArtifact }
     .desc = Artifact
     .suffix = Stalker, Dark Cube
+ent-ZoneArtifactStoneCube = Stone Cube
+    .desc = Artifact
+    .suffix = Stalker, Stone Cube
