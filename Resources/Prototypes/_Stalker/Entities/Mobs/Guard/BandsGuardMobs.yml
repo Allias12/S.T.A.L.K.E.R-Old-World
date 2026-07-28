@@ -32,8 +32,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      150: Critical
-      151: Dead
+      70: Critical
+      80: Dead
   - type: PassiveDamage
     allowedStates:
     - Alive
