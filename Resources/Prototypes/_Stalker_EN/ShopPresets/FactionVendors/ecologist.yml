@@ -232,12 +232,13 @@
         #STPsyHelm1: 7500
           # OuterClothing #
         ClothingOuterJacketSCI: 60 # T1 - PVE
-        ClothingOuterArmorSSP99Amber: 4000
-        ClothingOuterArmorSSP99: 4000
-        ClothingOuterArmorSSP24Topaz: 4000
-        ClothingOuterArmorSSP99White: 4500
-        ClothingOuterArmorSSP24Ruby: 4500
-        ClothingOuterArmorSSP24Sapfire: 4500
+        ClothingOuterArmorSSP99Amber: 12000
+        ClothingOuterArmorSSP99: 12000
+        ClothingOuterArmorSSP24Topaz: 8000
+        ClothingOuterArmorSSP99White: 12000
+        ClothingOuterArmorSSP24Ruby: 8000
+        ClothingOuterArmorSSP24Sapfire: 8000
+        STClothingOuterArmorSSP99Project: 8000
         ClothingOuterArmorSevaSciWhite: 1550
         ClothingOuterArmorSevaSciRed: 1750
 
@@ -255,6 +256,7 @@
         MedkitGrizzlyStalker: 850 # T2
         PillCanister: 150
           # Belts
+        ClothingBeltWebbingHolsterStalkerZarya: 1200
         ClothingBeltBandolierStalker: 50
         ClothingBeltMedicalStalker: 75
         STClothingBeltThrowingKnifes: 200 # OW change

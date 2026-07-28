@@ -6,58 +6,62 @@
   abstract: true
   suffix: ST, T4, Env
   components:
-  - type: STWeight
-    self: 7
-  - type: PullDoAfter
-    pullTime: 6
-  - type: Craftable
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/outerClothing/ssp99.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/outerClothing/ssp99.rsi
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP99
-  - type: Storage
-    maxItemSize: Huge
-    blacklist:
+    - type: STWeight
+      self: 7
+    - type: PullDoAfter
+      pullTime: 2
+    - type: Craftable
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/ssp99.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/ssp99.rsi
+    - type: ToggleableClothing
+      clothingPrototype: ClothingHeadHelmetSSP99
+    - type: Storage
+      maxItemSize: Huge
+      blacklist:
+        tags:
+          - STArtifact
+      grid:
+        - 0,0,5,3
+        - 7,0,10,3
+        - 7,0,12,3
+    - type: Armor
+      armorClass: 3 
+      modifiers:
+        flatReductions:
+          Blunt: 2
+          Slash: 2
+          Piercing: 1
+          Heat: 3
+          Caustic: 3
+          Radiation: 3
+          Shock: 3
+          Compression: 0.25
+        coefficients:
+          Blunt: 0.8
+          Slash: 0.8
+          Piercing: 0.8 
+          Heat: 0.5
+          Caustic: 0.5
+          Shock: 0.5
+          Radiation: 0.6
+          Compression: 0.55
+    - type: GrantsArtifactSlots
+      slots: 5 # EN
+    - type: ClothingSpeedModifier
+      walkModifier: 0.95
+      sprintModifier: 0.95
+    - type: ContainerContainer
+      containers:
+        toggleable-clothing: !type:ContainerSlot {}
+        storagebase: !type:Container
+          ents: []
+    - type: Tag
       tags:
-      - STArtifact
-    grid:
-      - 0,0,5,3
-      - 7,0,12,3
-  - type: Armor
-    armorClass: 2 #en edit
-    modifiers:
-      flatReductions:
-        Heat: 4
-        Caustic: 4
-        Radiation: 4
-        Shock: 3
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.75 # en edit
-        Heat: 0.50
-        Caustic: 0.40
-        Shock: 0.70
-        Radiation: 0.60
-        Compression: 0.60
-  - type: GrantsArtifactSlots
-    slots: 4 # EN
-  - type: ClothingSpeedModifier
-    walkModifier: 0.95
-    sprintModifier: 0.95
-  - type: ContainerContainer
-    containers:
-      toggleable-clothing: !type:ContainerSlot {}
-      storagebase: !type:Container
-        ents: []
-  - type: Tag
-    tags:
-    - BlockBack
-    - BlockBelt
-  - type: Item
-    size: Ginormous
+        - BlockBack
+    - type: Item
+      size: Ginormous
 
 - type: entity
   parent: ClothingHeadHardsuitBase
@@ -67,34 +71,36 @@
   categories: [ HideSpawnMenu ]
   abstract: true
   components:
-  - type: Armor
-    armorClass: 1
-    modifiers:
-      flatReductions:
-        Blunt: 3
-        Slash: 4
-        Piercing: 2
-        Heat: 4
-        Caustic: 4
-        Radiation: 3
-        Shock: 2
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.7
-        Radiation: 0.8
-        Caustic: 0.6
-        Shock: 0.9
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/hats/ssp99_helm.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/hats/ssp99_helm.rsi
-  - type: IdentityBlocker
-  - type: IngestionBlocker
-  - type: PressureProtection
-    highPressureMultiplier: 0.1
-    lowPressureMultiplier: 1000
+    - type: Armor
+      armorClass: 3
+      modifiers:
+        flatReductions:
+          Blunt: 2
+          Slash: 2
+          Piercing: 1
+          Heat: 2
+          Caustic: 2
+          Radiation: 2
+          Shock: 2
+          Psy: 3
+        coefficients:
+          Blunt: 0.85
+          Slash: 0.85
+          Piercing: 0.8
+          Heat: 0.9
+          Radiation: 0.8
+          Caustic: 0.8
+          Shock: 0.85
+          Compression: 0.65
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/hats/ssp99_helm.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/hats/ssp99_helm.rsi
+    - type: IdentityBlocker
+    - type: IngestionBlocker
+    - type: PressureProtection
+      highPressureMultiplier: 0.1
+      lowPressureMultiplier: 1000
 
 # Stalker
 - type: entity
@@ -103,16 +109,31 @@
   name: ССП-99М
   description: Высококачественный модифицированный комбинезон ССП-99. Добавлена защита торса от пулевого и осколочного повреждения. Опять же устарел, как и его младший собрат.
   components:
-  - type: Armor
-    armorLevels:
-      nonPvPPhysical: 10
-      piercing: 10
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/outerClothing/ssp99.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/outerClothing/ssp99.rsi
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP99
+    - type: Armor
+      modifiers:
+        flatReductions:
+          Blunt: 2
+          Slash: 2
+          Piercing: 2
+          Heat: 2
+          Caustic: 2
+          Radiation: 2
+          Shock: 2
+        coefficients:
+          Blunt: 0.75
+          Slash: 0.75
+          Piercing: 0.75
+          Heat: 0.7
+          Caustic: 0.7
+          Shock: 0.75
+          Radiation: 0.8
+          Compression: 0.6
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/ssp99.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/ssp99.rsi
+    - type: ToggleableClothing
+      clothingPrototype: ClothingHeadHelmetSSP99
 
 - type: entity
   parent: STClothingHeadHelmetSSP99Base
@@ -121,10 +142,29 @@
   description: Лёгкий шлем с герметичным забралом, предназначенный для защиты лица от некоторых аномальных воздействий.
   categories: [ HideSpawnMenu ]
   components:
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/hats/ssp99_helm.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/hats/ssp99_helm.rsi
+    - type: Armor
+      modifiers:
+        flatReductions:
+          Blunt: 1
+          Slash: 1
+          Piercing: 2
+          Heat: 2
+          Caustic: 1
+          Radiation: 2
+          Shock: 1
+        coefficients:
+          Blunt: 0.8
+          Slash: 0.8
+          Piercing: 0.75
+          Heat: 0.9
+          Caustic: 0.9
+          Shock: 0.9
+          Radiation: 0.8
+          Compression: 0.7
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/hats/ssp99_helm.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/hats/ssp99_helm.rsi
 
 # Zavet
 
@@ -161,12 +201,12 @@
   name: ССП-99 «Эколог»
   description: Созданный для работы в условиях Зоны защитный костюм. Уже давно устарел, но всё так же используется учёными за неимением нормального финансирования.
   components:
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/outerClothing/ssp99red.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/outerClothing/ssp99red.rsi
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP99Amber
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/ssp99red.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/ssp99red.rsi
+    - type: ToggleableClothing
+      clothingPrototype: ClothingHeadHelmetSSP99Amber
 
 - type: entity
   parent: STClothingHeadHelmetSSP99Base
@@ -188,16 +228,31 @@
   name: Белый ССП-99 «Алмаз»
   description: Один из тех костюмов НИИ «ЧаЗ», которые можно назвать удачными.
   components:
-  - type: Armor
-    armorLevels:
-      shock: 3
-      psy: 3
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/outerClothing/ssp99white.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/outerClothing/ssp99white.rsi
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP99White
+    - type: Armor
+      modifiers:
+        flatReductions:
+          Blunt: 4
+          Slash: 4
+          Piercing: 2
+          Heat: 2
+          Caustic: 2
+          Radiation: 2
+          Shock: 2
+        coefficients:
+          Blunt: 0.55
+          Slash: 0.55
+          Piercing: 0.75
+          Heat: 0.75
+          Caustic: 0.7
+          Shock: 0.75
+          Radiation: 0.8
+          Compression: 0.65
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/ssp99white.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/ssp99white.rsi
+    - type: ToggleableClothing
+      clothingPrototype: ClothingHeadHelmetSSP99White
 
 - type: entity
   parent: STClothingHeadHelmetSSP99Base
@@ -206,6 +261,25 @@
   description: Защитит от аномалий и радиации, но точно не от пуль.
   categories: [ HideSpawnMenu ]
   components:
+    - type: Armor
+      modifiers:
+        flatReductions:
+          Blunt: 2
+          Slash: 2
+          Piercing: 1
+          Heat: 2
+          Caustic: 1
+          Radiation: 2
+          Shock: 1
+        coefficients:
+          Blunt: 0.8
+          Slash: 0.8
+          Piercing: 0.75
+          Heat: 0.9
+          Caustic: 0.9
+          Shock: 0.9
+          Radiation: 0.8
+          Compression: 0.65
     - type: Sprite
       sprite: _Stalker/Objects/Clothing/hats/ssp99_white.rsi
     - type: Clothing
@@ -219,13 +293,33 @@
   name: костюм «ССП NJ-1»"
   description: "Специальный электрозащитный костюм, разработанный «Проектом» версии NJ-1, в особом понимании изолирует слабые электрические воздействия как на костюм, так и на его носителя."
   components:
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/outerClothing/ssp_nj1.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/outerClothing/ssp_nj1.rsi
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHardsuitSevaHelmNJ1
-    slot: head
+    - type: Armor
+      armorClass: 2
+      modifiers:
+        flatReductions:
+          Blunt: 2
+          Slash: 2
+          Piercing: 1
+          Heat: 1
+          Caustic: 1
+          Radiation: 3
+          Shock: 2
+        coefficients:
+          Blunt: 0.85
+          Slash: 0.85
+          Piercing: 0.85
+          Heat: 0.85
+          Caustic: 0.85
+          Shock: 0.45
+          Radiation: 0.65
+          Compression: 0.65
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/ssp_nj1.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/ssp_nj1.rsi
+    - type: ToggleableClothing
+      clothingPrototype: ClothingHeadHardsuitSevaHelmNJ1
+      slot: head
 
 - type: entity
   parent: STClothingHeadHelmetSSP99Base
@@ -235,7 +329,28 @@
   suffix: Stalker
   categories: [ HideSpawnMenu ]
   components:
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/hats/ssp_helm_nj1.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/hats/ssp_helm_nj1.rsi
+    - type: Armor
+      armorClass: 2
+      modifiers:
+        flatReductions:
+          Blunt: 2
+          Slash: 2
+          Piercing: 1
+          Heat: 1
+          Caustic: 1
+          Radiation: 2
+          Shock: 2
+          Psy: 2
+        coefficients:
+          Blunt: 0.85
+          Slash: 0.85
+          Piercing: 0.8
+          Heat: 0.9
+          Radiation: 0.8
+          Caustic: 0.9
+          Shock: 0.75
+          Compression: 0.65
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/hats/ssp_helm_nj1.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/hats/ssp_helm_nj1.rsi
