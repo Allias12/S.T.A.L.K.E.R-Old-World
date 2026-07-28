@@ -499,6 +499,751 @@
   - type: PersonalDamage
     damage:
       types:
+        Compression: -0.25
+        Radiation: 0.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 0.85
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactWhirlwind
+  suffix: ST, Whirlwind
+  components:
+  - type: Sprite
+    state: whirlwind
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalySpringboard
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Compression: -0.5
+        Radiation: 1
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 0.75
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactRosin
+  suffix: ST, Rosin
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/artifacts.rsi
+    state: Rosin
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyPulse
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 2
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Compression: -0.5
+        Radiation: 1
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 0.75
+        Psy: 1.25
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier2
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactStoneCube
+  suffix: ST, Stone Cube
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/artifacts.rsi
+    state: StoneCube
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyBurden
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 3
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#c2c486"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Compression: -.75
+        Radiation: 1.5
+    interval: 1
+    ignoreResistances: true
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 0.65
+        Psy: 1.45
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier3
+
+# Пораждаемая ZoneAnomalyBeer (_Stalker_EN/.../chemical.yml)
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactBeer
+  suffix: ST, Beer
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Other/Anomalys/beer.rsi
+    state: idle
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyBeer
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 0.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.2
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+# No anomaly spawner wired up yet for this one, defaulted to tier 1 / ZoneAnomalySpringboard - rebalance as needed
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactHardcandy
+  suffix: ST, Hardcandy
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/artifacts.rsi
+    state: hardcandy
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalySpringboard
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 0.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.2
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+# No anomaly spawner wired up yet for this one, defaulted to tier 1 / ZoneAnomalySpringboard - rebalance as needed
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactPumpkin
+  suffix: ST, Pumpkin
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/artifacts.rsi
+    state: pumpkin
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalySpringboard
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 0.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.2
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+  suffix: Stalker, Медуза
+  components:
+  - type: Butcherable
+    spawned:
+      - id: ArtMedusaActive1
+        amount: 1
+  - type: Craftable
+  - type: Sprite
+    state: medusa
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalySpringboard
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 0.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.2
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactFlower
+  suffix: Stalker, Каменный цветок
+  components:
+  - type: Sprite
+    state: flower
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyPulse
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 3
+  - type: PointLight
+    radius: 1.5
+    energy: 5.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 2
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      flatReductions:
+        Blunt: 1
+        Slash: 1
+      coefficients:
+        Compression: 1.8
+        Blunt: 0.7
+        Slash: 0.7
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier3
+
+# doing something with this dont worry about it
+- type: entity
+  parent: BaseArtifactStorage
+  id: ZoneArtifactDarkCube
+  suffix: Stalker, Тёмный куб
+  components:
+  - type: Sprite
+    state: dark_cube
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyPulse
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 5
+  - type: PointLight
+    radius: 1.5
+    energy: 6
+    color: "#000000"
+    castShadows: false
+  - type: Storage
+    grid:
+      - 0,0,1,1
+    blacklist:
+      tags:
+      - STArtifact
+    maxItemSize: Tiny
+  - type: STWeight
+    self: 30
+
+- type: entity
+  name: Ночная звезда
+  parent: BaseArtifact
+  id: ZoneArtifactNightStar
+  suffix: Stalker, Ночная звезда
+  components:
+  - type: Sprite
+    state: night_star
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyNoGravity
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 4
+  - type: PointLight
+    radius: 1.5
+    energy: 5.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 3
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      flatReductions:
+        Blunt: 2
+        Slash: 2
+      coefficients:
+        Compression: 2.2
+        Blunt: 0.55
+        Slash: 0.55
+  - type: STWeight
+    self: -10
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier4
+
+# Пораждаемая эпицентром, каруселью
+- type: entity
+  parent: BaseArtifact
+  name: Выверт
+  id: ZoneArtifactVyvert
+  suffix: Stalker, Выверт
+  components:
+  - type: Sprite
+    state: vyvert
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: AnomSEpicentre
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: -0.25
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.1
+  - type: STWeight
+    self: -10
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactAmoeba
+  suffix: Stalker, Амеба
+  components:
+  - type: Sprite
+    state: amoeba
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: AnomSEpicentre
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 2
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 1
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.3
+  - type: STWeight
+    self: -30
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier2
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactGravi
+  suffix: Stalker, Грави
+  components:
+  - type: Sprite
+    state: gravi
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: AnomSEpicentre
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 4
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: -2
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.5
+  - type: STWeight
+    self: -75
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier4
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactGoldfish
+  suffix: Stalker, Золотая рыбка
+  components:
+  - type: Sprite
+    state: goldfish
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: AnomSEpicentre
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 5
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: -2
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.8
+  - type: STWeight
+    self: -100
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier5
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactSpring
+  suffix: Stalker, Пружина
+  components:
+  - type: Sprite
+    state: spring
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: AnomSEpicentre
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 5
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    staminaDamage: -6
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 0.2
+        Heat: 1.5
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier5
+
+# Пораждаемая инверсией
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactFocus
+  suffix: Stalker, Фокус
+  components:
+  - type: Sprite
+    state: focus
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyInversion
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 5
+  - type: PointLight
+    radius: 2.5
+    energy: 4.5
+    color: "#ffffff"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: false
+    armorClass: 2
+    modifiers:
+      flatReductions:
+        Blunt: -5
+        Slash: -5
+        Piercing: -5
+      coefficients:
+        Psy: 0.9
+        Blunt: 5
+        Slash: 5
+        Piercing: 5
+        Heat: 5
+        Shock: 5
+        Radiation: 5
+  - type: Reflect
+    reflectProb: 0.7
+    spread: 340
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier5
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactStuntman
+  suffix: Stalker, Трюкач
+  components:
+  - type: Sprite
+    state: stuntman
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyInversion
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 5
+  - type: PointLight
+    radius: 2.5
+    energy: 5.5
+    color: "#ffffff"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 1.5
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: false
+    armorClass: 3
+    modifiers:
+      flatReductions:
+        Blunt: -5
+        Slash: -5
+        Piercing: -5
+      coefficients:
+        Psy: 0.9
+        Blunt: 5.5
+        Slash: 5.5
+        Piercing: 5.5
+        Heat: 5.5
+        Shock: 5.5
+        Radiation: 5.5
+  - type: Reflect
+    reflectProb: 0.8
+    spread: 320
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier5
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactDistorter
+  suffix: Stalker, Исказитель
+  components:
+  - type: Sprite
+    state: distorter
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyInversion
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 5
+  - type: PointLight
+    radius: 2.5
+    energy: 6.5
+    color: "#ffffff"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 2
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: false
+    armorClass: 4
+    modifiers:
+      flatReductions:
+        Blunt: -5
+        Slash: -5
+        Piercing: -5
+      coefficients:
+        Psy: 0.9
+        Blunt: 6
+        Slash: 6
+        Piercing: 6
+        Heat: 6
+        Shock: 6
+        Radiation: 6
+  - type: Reflect
+    reflectProb: 0.9
+    spread: 300
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier5
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactPebble
+  suffix: ST, Pebble
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/artifacts.rsi
+    state: Pebble
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalySpringboard
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
         Radiation: 0.5
     interval: 1
     ignoreResistances: true # EN
