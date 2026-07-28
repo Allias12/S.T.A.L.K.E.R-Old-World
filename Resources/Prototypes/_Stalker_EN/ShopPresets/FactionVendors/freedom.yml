@@ -319,6 +319,7 @@
         STCameraVintage: 1200
         STCameraDamaged: 400
         STCameraFilm: 150
+        STCraftMortarAndPestle: 500
 
     - name: shop-category-modules
       priority: 11
@@ -448,3 +449,12 @@
         CigPackMixed: 250 #comfortable
         CigPackMarlboro: 200 #modest
         CigPackKosmos: 100 #squalid
+        STPaperRolling: 40 #Stalker OW - Start
+        
+    - name: Gardening
+      priority: 17
+      items:
+        RobustHarvestChemistryBottleStalker: 50
+        CannabisSeedsStalker: 70
+        HydroponicsToolMiniHoe: 70
+        #Stalker OW - End
