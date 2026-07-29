@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 05/01/2026 21:35:28
-  entityCount: 2940
+  time: 07/28/2026 23:39:36
+  entityCount: 2942
 maps:
 - 1
 grids:
@@ -2491,7 +2491,7 @@ entities:
       pos: -1.5,24.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -36502.695
+      secondsUntilStateChange: -36878.723
       state: Denying
     - type: Physics
       canCollide: False
@@ -2585,10 +2585,10 @@ entities:
       parent: 1
 - proto: NoticeBoard
   entities:
-  - uid: 454
+  - uid: 392
     components:
     - type: Transform
-      pos: -0.5,8.5
+      pos: 1.5,1.5
       parent: 1
     - type: Fixtures
       fixtures: {}
@@ -3410,219 +3410,6 @@ entities:
           showEnts: False
           occludes: False
           ent: null
-  - uid: 433
-    components:
-    - type: MetaData
-      desc: And where does he get so many potatoes? Ha, Dimka has a gorgeous moustache!
-      name: Dimka "Bulbash"
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -4.5,4.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 434
-    components:
-    - type: MetaData
-      desc: A quiet and calm stalker, he keeps to himself and doesn't really like to talk.
-      name: Mykola Pozitiv
-    - type: Transform
-      pos: 1.5,-1.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
   - uid: 436
     components:
     - type: MetaData
@@ -3737,112 +3524,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -2.5,-1.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact3: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        artifact4: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        legs: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        torso: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        dopweapon: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        cloak: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-  - uid: 438
-    components:
-    - type: MetaData
-      desc: A regular electrician in the zone, he can fix your radio!
-      name: Sergey Midasov
-    - type: Transform
-      pos: -5.5,5.5
       parent: 1
     - type: ContainerContainer
       containers:
@@ -4984,6 +4665,11 @@ entities:
       parent: 1
 - proto: OldWoodChairStalker
   entities:
+  - uid: 112
+    components:
+    - type: Transform
+      pos: 1.5,-1.5
+      parent: 1
   - uid: 137
     components:
     - type: Transform
@@ -5136,6 +4822,12 @@ entities:
       parent: 1
 - proto: OldWoodChairStalker2
   entities:
+  - uid: 324
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -5.5,3.5
+      parent: 1
   - uid: 460
     components:
     - type: Transform
@@ -5169,6 +4861,11 @@ entities:
       parent: 1
 - proto: OldWoodChairStalker3
   entities:
+  - uid: 113
+    components:
+    - type: Transform
+      pos: -5.5,5.5
+      parent: 1
   - uid: 141
     components:
     - type: Transform
@@ -5176,6 +4873,11 @@ entities:
       parent: 1
     missingComponents:
     - Strap
+  - uid: 213
+    components:
+    - type: Transform
+      pos: -1.5,-1.5
+      parent: 1
   - uid: 467
     components:
     - type: Transform
@@ -6343,11 +6045,15 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 4.5,-0.5
       parent: 1
+    missingComponents:
+    - Destructible
   - uid: 665
     components:
     - type: Transform
       pos: 5.5,1.5
       parent: 1
+    missingComponents:
+    - Destructible
   - uid: 666
     components:
     - type: Transform
@@ -6368,6 +6074,8 @@ entities:
       rot: 3.141592653589793 rad
       pos: 4.5,1.5
       parent: 1
+    missingComponents:
+    - Destructible
 - proto: sandbag
   entities:
   - uid: 716
@@ -7506,16 +7214,6 @@ entities:
     - type: Transform
       pos: 2.5,8.5
       parent: 1
-  - uid: 7782
-    components:
-    - type: Transform
-      pos: 2.5,7.5
-      parent: 1
-  - uid: 7783
-    components:
-    - type: Transform
-      pos: 2.5,6.5
-      parent: 1
   - uid: 7784
     components:
     - type: Transform
@@ -8439,6 +8137,11 @@ entities:
       parent: 1
 - proto: STChairWood
   entities:
+  - uid: 114
+    components:
+    - type: Transform
+      pos: 0.5,-1.5
+      parent: 1
   - uid: 223
     components:
     - type: Transform
@@ -8463,6 +8166,11 @@ entities:
       parent: 1
     - type: Physics
       bodyType: Static
+  - uid: 240
+    components:
+    - type: Transform
+      pos: -6.5,5.5
+      parent: 1
   - uid: 468
     components:
     - type: Transform
@@ -9705,6 +9413,18 @@ entities:
       parent: 1
 - proto: StoolBar
   entities:
+  - uid: 325
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 0.5,6.5
+      parent: 1
+  - uid: 391
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 0.5,7.5
+      parent: 1
   - uid: 1122
     components:
     - type: Transform
@@ -9727,12 +9447,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 4.5,4.5
-      parent: 1
-  - uid: 1126
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 5.5,4.5
       parent: 1
   - uid: 1374
     components:
@@ -10448,6 +10162,13 @@ entities:
     components:
     - type: Transform
       pos: 1.5,24.5
+      parent: 1
+- proto: TrashBin
+  entities:
+  - uid: 218
+    components:
+    - type: Transform
+      pos: 5.5,4.5
       parent: 1
 - proto: TriggerBoxDrawer
   entities:
@@ -17456,6 +17177,11 @@ entities:
     - type: Transform
       pos: -6.5,-11.5
       parent: 1
+  - uid: 111
+    components:
+    - type: Transform
+      pos: -5.5,5.5
+      parent: 1
   - uid: 139
     components:
     - type: Transform
@@ -18415,11 +18141,6 @@ entities:
     components:
     - type: Transform
       pos: -6.5,5.5
-      parent: 1
-  - uid: 7493
-    components:
-    - type: Transform
-      pos: -5.5,5.5
       parent: 1
   - uid: 7494
     components:
