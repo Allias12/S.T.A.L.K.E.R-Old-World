@@ -26,6 +26,10 @@
     MonolithCrate739Mag30: 10
     MonolithCrate919Mag30: 10
     MonolithCrate919PBM: 10
+    ClothingOuterJacketMonolith: 10
+    STClothingNeckFacescarfWhite: 10
+    STClothingNeckFacescarfGrey: 10
+    STClothingNeckFacescarfBlack: 10
     FoldedFlagMono: 20
     StalkerMonolithAltarKit: 10
     BoxZiptie: 10
@@ -201,7 +205,7 @@
     items:
       ClothingOuterArmorSevaMonolithPriest: 15
       ClothingHeadHelmetBerill5MMonolith: 8
-      #ClothingHeadHelmetBulatMonolith: 10
+      ClothingHeadHelmetBulatMonolith: 10
       #ClothingOuterArmorBerill5MMonolith: 50 - StalkerOW: Removed until T4 is back.
 
   - name: shop-category-grenades
@@ -220,11 +224,11 @@
     priority: 6
     items:
       ClothingHeadBeretMonolith: 1
-      ClothingOuterJacketMonolith: 1
+      #ClothingOuterJacketMonolith: 1
       ClothingNeckMantleMono: 3
-      STClothingNeckFacescarfWhite: 1
-      STClothingNeckFacescarfGrey: 1
-      STClothingNeckFacescarfBlack: 1
+      #STClothingNeckFacescarfWhite: 1
+      #STClothingNeckFacescarfGrey: 1
+      #STClothingNeckFacescarfBlack: 1
 
   - name: shop-category-utilities
     priority: 7
