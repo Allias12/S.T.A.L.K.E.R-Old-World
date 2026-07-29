@@ -55,4 +55,4 @@
     projectileClass: 3
     damage:
       types:
-        Piercing: 18
+        Piercing: 16
