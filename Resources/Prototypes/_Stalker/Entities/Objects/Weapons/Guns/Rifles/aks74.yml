@@ -169,7 +169,7 @@
     angleIncrease: 1.2
     fireRate: 7.5
   - type: STWeaponAccuracy
-    accuracyMultiplier: 1.5
+    accuracyMultiplier: 1.5 
 
 - type: entity
   parent: STBaseWeaponRifleAKS74
