@@ -93,6 +93,8 @@
     MutantPartIzlomArm: 625
     MutantPartBurerBrain: 1000
     MutantPartControllerBrain: 2000
+    ClothingMaskChimera: 100000
+    MutantPartChimeraTooth: 50000
 
   categories:
     - name: shop-category-weapons
@@ -101,6 +103,10 @@
         # Melee
         STCombatKnife: 25
         STSurvivalKnife: 50
+        # --- OW changes start ---
+        STThrowingknifeBlue: 250
+        STThrowingknifeYellow: 500
+        # --- OW changes stop ---
         # Shotguns
         STWeaponShotgunMossbergM88: 630
         STWeaponShotgunBenelliM4Super90: 1200 # T3
@@ -242,6 +248,10 @@
         ClothingBeltWebbingHolsterMerc: 1000
         ClothingBeltWebbingHolsterMerc2: 1000
         STClothingCapeTacticalRigBlue: 800
+        # --- OW changes start ---
+        ClothingBeltMedicalStalker: 950
+        STClothingBeltThrowingKnifes: 200
+        # --- OW changes stop ---
         # Medical Storage
         MedkitCMSStalker: 450
         MedkitGrizzlyStalker: 850
@@ -311,6 +321,7 @@
         ClothingBackpackDuffelGreenStalkerHydroponic: 500
         ExtendedEmergencyOxygenTankFilledStalker: 50
         FoldedFlagMerc: 250
+        HandLabeler: 75 # OW change
         # Cameras
         STCamera: 750
         STCameraVintage: 1200

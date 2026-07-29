@@ -101,13 +101,13 @@ marking-VitiligoHeadLeft = Vitiligo (Left Eye)
 marking-VitiligoHeadRight = Vitiligo (Right Eye)
 
 # do we have catgirls in the zone is that canon
-marking-CatEarsStubby = Cat Ears (Stubby)
+marking-CatEarsStubby = Mutated Ears (Stubby)
 marking-CatEarsStubby-ears_stubby_outer = Outer
 marking-CatEarsStubby-ears_stubby_inner = Inner
-marking-CatEarsCurled = Cat Ears (Curled)
+marking-CatEarsCurled = Mutated Ears (Curled)
 marking-CatEarsCurled-ears_curled_outer = Outer
 marking-CatEarsCurled-ears_curled_inner = Inner
-marking-CatEarsTorn = Cat Ears (Torn)
+marking-CatEarsTorn = Mutated Ears (Torn)
 marking-CatEarsTorn-ears_torn_outer = Outer
 marking-CatEarsTorn-ears_torn_inner = Inner
 marking-CatTailStripes = Cat Tail (Stripes)

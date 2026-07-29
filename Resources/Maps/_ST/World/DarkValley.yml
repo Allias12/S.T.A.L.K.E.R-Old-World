@@ -33365,20 +33365,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 131.5,-88.5
       parent: 1
-- proto: DollarShopFreedom
-  entities:
-  - uid: 19003
-    components:
-    - type: Transform
-      pos: 73.5,33.5
-      parent: 1
-- proto: DollarShopMercenary
-  entities:
-  - uid: 18995
-    components:
-    - type: Transform
-      pos: -76.5,-54.5
-      parent: 1
 - proto: DrinkBottleVodka
   entities:
   - uid: 437

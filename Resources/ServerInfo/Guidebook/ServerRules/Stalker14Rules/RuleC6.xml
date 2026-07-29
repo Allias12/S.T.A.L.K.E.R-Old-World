@@ -1,5 +1,5 @@
 <Document>
-  # Core Rule 6 - Zone Rulings
+  # Core Rule 6 - Area Rulings
 
   The Zone is divided into areas with different PvP and engagement rules. Make sure you know what zone you're in before starting any confrontation. For detailed PvP engagement and death rules, see [textlink="Rule 7 - PvP & Combat" link="RuleC7Stalker"].
 
@@ -19,12 +19,14 @@
 
   Locations:
   - [color=#008000]Rookie Village[/color] in Cordon, including Sidorovich's bunker. *[textlink="Bandits" link="RuleF1"], [textlink="Renegades" link="RuleF2"], [textlink="Military" link="RuleF3"], and [textlink="Monolith" link="RuleF4"] are NOT allowed in or around Rookie Village at any time.*
-  - [color=#008000]The 100 Rads Bar[/color] in Rostok. [textlink="Duty" link="RuleF8"] controls Rostok. Any hostile or associated factions may be denied entry or engaged on sight within Rostok, and may be engaged by Duty inside the 100 Rads Bar following Gray Zone rules. Enter at your own risk.
+  - [color=#008000]The 100 Rads Bar[/color] in Rostok. [textlink="Duty" link="RuleF8"] controls Rostok. Any hostile or associated factions may be denied entry or engaged on sight within Rostok, and may be engaged by Duty inside the 100 Rads Bar following Gray Zone rules. Enter at your own risk. [textlink="Bandits" link="RuleF1"] and [textlink="Renegades" link="RuleF2"] are explicitly disallowed access.
   - [color=#008000]The Fleamarket and Bar[/color] in Garbage, excluding the russian roulette den.
 
   [color=#808080]Gray Zone[/color]
 
   PvP and robbing are allowed only after there is an RP exchange of at least two sentences from both parties in the encounter, if allowed depending on faction rules and faction relations.
+
+  [textlink="Bandits" link="RuleF1"] and [textlink="Renegades" link="RuleF2"] are not allowed to use equipment above T2 within gray zones.
 
   Locations:
   - Cordon (except the Southern Border — [textlink="Military" link="RuleF3"] can open fire on stalkers approaching the Southern Checkpoint).
@@ -33,7 +35,8 @@
 
   Faction base owners have the final say. They may use lethal force if the offender is violating their rules when appropriate or after escalation.
 
-  - Attacking faction bases without [textlink="raid approval" link="RuleC8Stalker"] is prohibited.
+  <!-- Baseraids currently disabled 
+  - Attacking faction bases without [textlink="raid approval" link="RuleC8Stalker"] is prohibited.-->
   - Camping a faction base or its only access points is prohibited. Any faction that is hostile to the base-owning faction must remain at least 0.5 screens away. Faction bases shouldn't be fired directly into or out of.
   - Faction bases can't be returned to within 5 minutes of leaving PvP.
   - Anyone Allied with or Neutral to the base owning faction is prohibited from engaging in PvP within the base unless given permission by the base owner and may be asked to follow rules set by the owning faction.

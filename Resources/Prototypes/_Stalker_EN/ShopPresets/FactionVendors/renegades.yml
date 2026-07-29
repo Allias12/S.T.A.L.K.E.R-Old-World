@@ -94,7 +94,8 @@
     MutantPartPseudogiantHeart: 2800
     MutantPartZombieHand: 520
     MutantPartIzlomArm: 680
-    MutantPartChimeraTooth: 3300 # nerfed for plans of nerfing the mutant soon
+    ClothingMaskChimera: 50000
+    MutantPartChimeraTooth: 75000
     MutantPartBurerBrain: 1500
     MutantPartControllerBrain: 2500
     MutantPartRustEgg: 40000
@@ -108,6 +109,10 @@
       PliersStalker: 300
       SledgehammerRenegats: 500
       StalkerBallBat: 120
+      # --- OW changes start ---
+      STThrowingknifeBlue: 250
+      STThrowingknifeYellow: 500
+      # --- OW changes stop ---
         # Guns
       #20gauge
       STBaseWeaponShotgunTOZ106: 500 # T1
@@ -269,6 +274,10 @@
       ClothingBeltWebbingHolsterStalkerZarya: 500
       STClothingCapeTacticalRigBrown: 800
       STClothingCapeTacticalRigBlack: 800
+      # --- OW changes start ---
+      ClothingBeltMedicalStalker: 450
+      STClothingBeltThrowingKnifes: 200
+      # --- OW changes stop ---
       # Containers
       MedkitCMSStalker: 400 # T1
       MedkitGrizzlyStalker: 1000 # T2
@@ -339,6 +348,7 @@
       STElasticRubberBlue: 1
       FoldedFlagRene: 250
       STRag: 10
+      HandLabeler: 75 # OW change
       # Cameras
       STCamera: 750
       STCameraVintage: 1200
@@ -483,21 +493,21 @@
       # 5,45x39
       STWeaponRifleAKS74U: 3
       STWeaponRifleAKS74: 5
-      STWeaponRifleRPK74Vedma: 11
+      STWeaponRifleRPK74Vedma: 14
       STWeaponRifleOC14Liturgia: 9
       # 5.56
-      STWeaponRifleM16: 9
+      STWeaponRifleM16: 10
       # SMGS
       STWeaponSMGPPSh41: 5
       STWeaponSMGMP5: 3
       STWeaponSMGStalkerCP2VereskLiturgy: 10
       # 7,62x39
-      STWeaponRifleAKM: 12 # Worse AKM version for cheaper
+      STWeaponRifleAKM: 15 # Worse AKM version for cheaper
       STWeaponSniperSKS: 3
       # 7.62x54
-      STWeaponSniperSVDliturgy: 60 # frag out my renechud
+      #STWeaponSniperSVDliturgy: 60 # frag out my renechud
       # explosive
-      DynamiteThree: 20 #coughing rookie vs HYDROGEN RENEGADE BOMB
+      #DynamiteThree: 25 #coughing rookie vs HYDROGEN RENEGADE BOMB
   - name: shop-category-magazines
     priority: 2
     items:
@@ -532,9 +542,9 @@
     items:
       # ARMOR
       # outerClothing
-      STClothingOuterArmorLightPlateVestBasePSZ7rene: 22
+      STClothingOuterArmorLightPlateVestBasePSZ7rene: 38
       # head
-      ClothingHeadHelmetVityazSkull3: 12 # this is a vityaz, youre paying a drip tax
-      ClothingMaskRenegate: 5 # T3
+      ClothingHeadHelmetVityazSkull3: 16 # this is a vityaz, youre paying a drip tax
+      ClothingMaskRenegate:  18 # T3 zenith but with flat 1 rad resist
       # misc
       ClothingNeckToothNecklace: 1

@@ -85,6 +85,10 @@
       items:
         # Melee
         STMachete: 50
+        # --- OW changes start ---
+        STThrowingknifeBlue: 250
+        STThrowingknifeYellow: 500
+        # --- OW changes stop ---
         # Pistols
         STWeaponPistolP99: 600
         STWeaponPistolM1911: 1000
@@ -95,10 +99,10 @@
         STWeaponShotgunSPAS: 2000 # T3
         # SMGs
         STWeaponSMGMP5: 1800 # T3
+        # STWeaponSMGThompson: 4000 # not yet
         # Nato Rifles
         STWeaponRifleM16: 2500 # T2
         STWeaponRifleM16M203: 3500 # T2
-        STWeaponRifleSCARH: 6000 # T3
         STWeaponRifleFAL: 1750 # T3
         STWeaponRifleGalil: 7000 # T3
         # Snipers
@@ -122,8 +126,9 @@
         739Mag30: 500
         545Mag30: 400
         545Mag20: 200
-        BaseTommyGunMag: 350
-        TommyGunDrum2: 1600
+        #BaseTommyGunMag: 350 not yet
+        #TommyGunDrum2: 1600 not yet
+        #TommyGunBigDrum: 3000 not yet
 
     - name: shop-category-ammunition
       priority: 3
@@ -185,7 +190,7 @@
         STEnergyDrink: 100
         STEnergyDrinkMonster: 150
         STEnergyDrinkRevo: 150
-        STEnergyDrinkPinkMonster: 100 
+        STEnergyDrinkPinkMonster: 100
         STDrinkBeerCanBaltic: 90
         DrinkCossackVodkaBottleFull: 55
         STFoodBreadPlain: 35
@@ -230,6 +235,10 @@
         ClothingBeltWebbingHolsterFreedomDefender: 600
         STClothingCapeTacticalRigBrown: 800
         STClothingCapeTacticalRigGreen: 800
+        # --- OW changes start ---
+        ClothingBeltMedicalStalker: 550
+        STClothingBeltThrowingKnifes: 200
+        # --- OW changes stop ---
 
     - name: shop-category-raincoats-and-gasmasks
       priority: 8
@@ -304,11 +313,13 @@
         STElasticRubberBlue: 1
         FoldedFlagFree: 250
         BoxFolderGreenEmpty: 25
+        HandLabeler: 75 # OW change
         # Cameras
         STCamera: 750
         STCameraVintage: 1200
         STCameraDamaged: 400
         STCameraFilm: 150
+        STCraftMortarAndPestle: 500
 
     - name: shop-category-modules
       priority: 11
@@ -438,3 +449,12 @@
         CigPackMixed: 250 #comfortable
         CigPackMarlboro: 200 #modest
         CigPackKosmos: 100 #squalid
+        STPaperRolling: 40 #Stalker OW - Start
+        
+    - name: Gardening
+      priority: 17
+      items:
+        RobustHarvestChemistryBottleStalker: 50
+        CannabisSeedsStalker: 70
+        HydroponicsToolMiniHoe: 70
+        #Stalker OW - End

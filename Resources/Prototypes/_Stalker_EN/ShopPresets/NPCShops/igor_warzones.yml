@@ -67,5 +67,3 @@
     price: 100
   - productEntity: STLostToy
     price: 500
-  - productEntity: Dollar
-    price: 20

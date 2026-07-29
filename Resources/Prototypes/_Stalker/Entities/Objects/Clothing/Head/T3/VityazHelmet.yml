@@ -147,7 +147,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/hats/VityazS2.rsi
 
-- type: entity
+- type: entity #TODO: redo this as the renegade zenith and the buffalo mask as the vityaz equivelent
   parent: STClothingHeadHelmetTacticalT3Base
   id: ClothingHeadHelmetVityazSkull3
   name: рогатый череп

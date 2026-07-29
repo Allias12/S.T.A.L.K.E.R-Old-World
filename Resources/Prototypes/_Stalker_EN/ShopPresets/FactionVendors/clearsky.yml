@@ -91,13 +91,12 @@
     MutantPartOraculeEye: 1800
     MutantPartPseudogiantHeart: 9050
     MutantPartZombieHand: 750
-    ClothingMaskChimera: 1
-    MutantPartChimeraTooth: 1
     MutantPartIzlomArm: 1650
     MutantPartBurerBrain: 2000
     MutantPartControllerBrain: 3500
     MutantPartRustEgg: 65000
-
+    ClothingMaskChimera: 125000
+    MutantPartChimeraTooth: 75000
     # Meat
     FoodMeatDogCooked: 70
     STFoodMeatSpiderCooked: 35
@@ -327,6 +326,7 @@
       ClothingBeltWebbingHolsterStalkerZarya: 500
       STClothingCapeTacticalRigBlack: 800
       STClothingCapeTacticalRigBrown: 800
+      ClothingBeltMedicalStalker: 450 # OW
       # Containers
       MedkitCMSStalker: 450 # T1
       MedkitGrizzlyStalker: 850 # T2
@@ -375,6 +375,7 @@
       ZoneArtifactDetectorBarracuda: 2750 # T3
       ZoneArtifactDetectorSeaDevil: 10000 # T4
       ElectronicDetectorT1: 1000 # EN
+      ElectronicDetectorT2: 8000 # EN
 
   - name: shop-category-utilities
     priority: 10
@@ -410,6 +411,7 @@
       STElasticRubberGreen: 1
       STElasticRubberBlue: 1
       FoldedFlagCS: 250
+      HandLabeler: 75 # OW change
       # Cameras
       STCamera: 750
       STCameraVintage: 1200

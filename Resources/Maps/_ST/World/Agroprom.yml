@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/11/2026 12:47:39
-  entityCount: 16450
+  time: 07/28/2026 22:16:01
+  entityCount: 16455
 maps:
 - 1
 grids:
@@ -114,7 +114,7 @@ entities:
         -13,-4: 18374403900869443584
         -12,-4: 18446744073696903168
         -22,-12: 18446744073709551615
-        -22,-13: 18446744069666242560
+        -22,-13: 18446744061076307968
         -21,-13: 1085102592318504960
         -21,-12: 1085102592571150095
         -23,-12: 9259542123282169855
@@ -33807,6 +33807,23 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -91.5,-28.5
       parent: 1
+- proto: BedsheetMedical
+  entities:
+  - uid: 10920
+    components:
+    - type: Transform
+      pos: -210.5,-155.5
+      parent: 1
+  - uid: 10921
+    components:
+    - type: Transform
+      pos: -208.5,-155.5
+      parent: 1
+  - uid: 10922
+    components:
+    - type: Transform
+      pos: -206.5,-160.5
+      parent: 1
 - proto: BenchBlueComfy
   entities:
   - uid: 96
@@ -44537,18 +44554,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingOuterArmorSevaMonolithPriest
-  entities:
-  - uid: 10905
-    components:
-    - type: Transform
-      pos: -176.50839,-74.44907
-      parent: 1
-    missingComponents:
-    - Item
-    - Physics
-    - Fixtures
-    - Pullable
 - proto: ClothingOuterArmorSSP24Topaz
   entities:
   - uid: 10772
@@ -45141,13 +45146,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 43.5,15.5
-      parent: 1
-- proto: DollarShopEcologist
-  entities:
-  - uid: 10672
-    components:
-    - type: Transform
-      pos: -195.5,-141.5
       parent: 1
 - proto: DrinkBottleVodka
   entities:
@@ -72445,7 +72443,7 @@ entities:
       pos: -175.5,-71.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -10696.728
+      secondsUntilStateChange: -11032.115
       state: Opening
   - uid: 2249
     components:
@@ -81236,6 +81234,11 @@ entities:
       rot: 3.141592653589793 rad
       pos: -193.5,-99.5
       parent: 1
+  - uid: 10672
+    components:
+    - type: Transform
+      pos: -209.5,-136.5
+      parent: 1
   - uid: 10758
     components:
     - type: Transform
@@ -81252,6 +81255,18 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -196.5,-87.5
+      parent: 1
+  - uid: 10918
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -213.5,-139.5
+      parent: 1
+  - uid: 10919
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -209.5,-141.5
       parent: 1
   - uid: 14360
     components:
@@ -99929,21 +99944,6 @@ entities:
     - type: Transform
       pos: -200.5,-122.5
       parent: 1
-  - uid: 12827
-    components:
-    - type: Transform
-      pos: -210.5,-155.5
-      parent: 1
-  - uid: 12828
-    components:
-    - type: Transform
-      pos: -208.5,-155.5
-      parent: 1
-  - uid: 12829
-    components:
-    - type: Transform
-      pos: -206.5,-160.5
-      parent: 1
   - uid: 12830
     components:
     - type: Transform
@@ -100481,8 +100481,6 @@ entities:
       anchored: False
       pos: -203.99031,-129.47946
       parent: 1
-    missingComponents:
-    - Pullable
 - proto: STChairWood
   entities:
   - uid: 27
@@ -108187,43 +108185,6 @@ entities:
     - type: Transform
       pos: -211.5,-139.5
       parent: 1
-- proto: STGuardSpawnerHostile
-  entities:
-  - uid: 14329
-    components:
-    - type: Transform
-      pos: -130.5,-5.5
-      parent: 1
-  - uid: 14330
-    components:
-    - type: Transform
-      pos: -134.5,-22.5
-      parent: 1
-  - uid: 14331
-    components:
-    - type: Transform
-      pos: -105.5,-22.5
-      parent: 1
-  - uid: 14332
-    components:
-    - type: Transform
-      pos: -101.5,-5.5
-      parent: 1
-  - uid: 14333
-    components:
-    - type: Transform
-      pos: -83.5,-9.5
-      parent: 1
-  - uid: 14334
-    components:
-    - type: Transform
-      pos: -83.5,-29.5
-      parent: 1
-  - uid: 14335
-    components:
-    - type: Transform
-      pos: -105.5,-30.5
-      parent: 1
 - proto: STKeyboard
   entities:
   - uid: 14336
@@ -108411,6 +108372,21 @@ entities:
     components:
     - type: Transform
       pos: -187.5,-64.5
+      parent: 1
+  - uid: 10905
+    components:
+    - type: Transform
+      pos: -208.5,-155.5
+      parent: 1
+  - uid: 10908
+    components:
+    - type: Transform
+      pos: -210.5,-155.5
+      parent: 1
+  - uid: 10909
+    components:
+    - type: Transform
+      pos: -206.5,-160.5
       parent: 1
   - uid: 12343
     components:
@@ -109252,6 +109228,48 @@ entities:
     components:
     - type: Transform
       pos: -45.5,-81.5
+      parent: 1
+- proto: STTriggerSnork125030
+  entities:
+  - uid: 10910
+    components:
+    - type: Transform
+      pos: -133.5,-5.5
+      parent: 1
+  - uid: 10911
+    components:
+    - type: Transform
+      pos: -134.5,-24.5
+      parent: 1
+  - uid: 10912
+    components:
+    - type: Transform
+      pos: -105.5,-31.5
+      parent: 1
+  - uid: 10913
+    components:
+    - type: Transform
+      pos: -83.5,-7.5
+      parent: 1
+  - uid: 10914
+    components:
+    - type: Transform
+      pos: -103.5,-6.5
+      parent: 1
+  - uid: 10915
+    components:
+    - type: Transform
+      pos: -112.5,-12.5
+      parent: 1
+  - uid: 10916
+    components:
+    - type: Transform
+      pos: -105.5,-23.5
+      parent: 1
+  - uid: 10917
+    components:
+    - type: Transform
+      pos: -82.5,-30.5
       parent: 1
 - proto: STTriggerSnork145030
   entities:
