@@ -171,7 +171,7 @@
       detectedLevel: 3
       preparingDelay: 0
       activationDelay: 1
-      chargeTime: 6
+      chargeTime: 12 #Stalker OW change (Fuck you chudlands)
     - type: Fixtures
       fixtures:
         fix1:
