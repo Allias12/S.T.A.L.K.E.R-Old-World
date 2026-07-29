@@ -14,7 +14,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -54,7 +54,7 @@
     dataset: NPCStalkerAlkashAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -94,7 +94,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -147,7 +147,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -189,7 +189,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -228,7 +228,7 @@
     # shopPresetId: NpcAlinaMorozova  #If you uncomment it - CHANGE SHOP PRESET
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -250,7 +250,7 @@
     shopPresetId: NpcErjanAlimovEN
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -272,7 +272,7 @@
     shopPresetId: NpcJuryIzvorotinEN
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
