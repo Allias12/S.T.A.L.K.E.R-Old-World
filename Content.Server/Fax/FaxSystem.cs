@@ -87,12 +87,11 @@ public sealed class FaxSystem : EntitySystem
     {
         base.Update(frameTime);
 
-        var query = EntityQueryEnumerator<FaxMachineComponent, ApcPowerReceiverComponent>();
-        while (query.MoveNext(out var uid, out var fax, out var receiver))
-        {
-            if (!receiver.Powered)
-                continue;
+        // Process every fax machine whether it has power or not
+        var query = EntityQueryEnumerator<FaxMachineComponent>();
 
+        while (query.MoveNext(out var uid, out var fax))
+        {
             ProcessPrintingAnimation(uid, frameTime, fax);
             ProcessInsertingAnimation(uid, frameTime, fax);
             ProcessSendingTimeout(uid, frameTime, fax);
@@ -185,28 +184,16 @@ public sealed class FaxSystem : EntitySystem
         UpdateUserInterface(uid, component);
     }
 
-    private void OnPowerChanged(EntityUid uid, FaxMachineComponent component, ref PowerChangedEvent args)
+    private void OnPowerChanged(
+        EntityUid uid,
+        FaxMachineComponent component,
+        ref PowerChangedEvent args)
     {
-        var isInsertInterrupted = !args.Powered && component.InsertingTimeRemaining > 0;
-        if (isInsertInterrupted)
-        {
-            component.InsertingTimeRemaining = 0f; // Reset animation
+        // Never eject the paper, interrupt printing, or lock the tray
+        _itemSlotsSystem.SetLock(uid, component.PaperSlot, false);
 
-            // Drop from slot because animation did not play completely
-            _itemSlotsSystem.SetLock(uid, component.PaperSlot, false);
-            _itemSlotsSystem.TryEject(uid, component.PaperSlot, null, out var _, true);
-        }
-
-        var isPrintInterrupted = !args.Powered && component.PrintingTimeRemaining > 0;
-        if (isPrintInterrupted)
-        {
-            component.PrintingTimeRemaining = 0f; // Reset animation
-        }
-
-        if (isInsertInterrupted || isPrintInterrupted)
-            UpdateAppearance(uid, component);
-
-        _itemSlotsSystem.SetLock(uid, component.PaperSlot, !args.Powered); // Lock slot when power is off
+        UpdateAppearance(uid, component);
+        UpdateUserInterface(uid, component);
     }
 
     private void OnInteractUsing(EntityUid uid, FaxMachineComponent component, InteractUsingEvent args)

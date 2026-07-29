@@ -29,7 +29,8 @@
         - TabletopMachineLayer
   - type: ActivatableUI
     key: enum.FaxUiKey.Key
-  - type: ActivatableUIRequiresPower
+#Removed so fax machines operate w/o power - ST:OW Kuro
+#  - type: ActivatableUIRequiresPower
   - type: UserInterface
     interfaces:
       enum.FaxUiKey.Key:
