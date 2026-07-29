@@ -15,7 +15,7 @@
     dataset: NPCStalkerSidorAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    singleUser: true
+    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
