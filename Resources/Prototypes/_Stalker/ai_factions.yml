@@ -60,7 +60,6 @@
     - Hostile
     - Meat
     - Bandit
-    - Military
 
 - type: npcFaction
   id: Sci
