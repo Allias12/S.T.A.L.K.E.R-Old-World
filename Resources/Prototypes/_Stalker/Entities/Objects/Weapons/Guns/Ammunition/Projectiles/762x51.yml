@@ -12,7 +12,7 @@
     projectileClass: 3
     damage:
       types:
-        Piercing: 25
+        Piercing: 25 #OW, -30%dmg
         Mutant: 35 # EN
   # - type: StaminaDamageOnCollide
     # damage: 7
