@@ -187,7 +187,7 @@
         STWeaponSMGMP5: 2600
         STWeaponSMGPP19: 3300
         STWeaponSMGPP1901: 2000
-        #STWeaponSMGThompson: 5000 not yet
+        STWeaponSMGThompson: 5000 # OW
         # Rifles
         STWeaponRifleSaiga545: 1750
         STWeaponRifleAKS74U: 2000
@@ -229,8 +229,8 @@
         MP40Mag: 150
         STSpeedLoader45ACPEmpty: 100
         PP91Mag: 200
-        #BaseTommyGunMag: 350 not yet
-        #TommyGunDrum2: 1600 not yet
+        BaseTommyGunMag: 350 # OW
+        TommyGunDrum2: 1600 # OW
 
     - name: shop-category-ammunition
       priority: 3
@@ -275,6 +275,7 @@
         739HPBox: 500 # Mutant
         751UNBox: 500 # Mutant
         754HPBox: 650 # Mutant
+        751M80Box: 1300 # T3 # OW
         # .357
         MagazineBox357Magnum: 1000 #T2
         MagazineBox357MagnumAP: 2500 # T3

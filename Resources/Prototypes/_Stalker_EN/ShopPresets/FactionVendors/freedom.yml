@@ -99,7 +99,7 @@
         STWeaponShotgunSPAS: 2000 # T3
         # SMGs
         STWeaponSMGMP5: 1800 # T3
-        # STWeaponSMGThompson: 4000 # not yet
+        STWeaponSMGThompson: 4000 # ow
         # Nato Rifles
         STWeaponRifleM16: 2500 # T2
         STWeaponRifleM16M203: 3500 # T2
@@ -126,9 +126,9 @@
         739Mag30: 500
         545Mag30: 400
         545Mag20: 200
-        #BaseTommyGunMag: 350 not yet
-        #TommyGunDrum2: 1600 not yet
-        #TommyGunBigDrum: 3000 not yet
+        BaseTommyGunMag: 350 # OW
+        TommyGunDrum2: 1600 # OW
+        TommyGunBigDrum: 3000 # OW
 
     - name: shop-category-ammunition
       priority: 3
@@ -450,7 +450,7 @@
         CigPackMarlboro: 200 #modest
         CigPackKosmos: 100 #squalid
         STPaperRolling: 40 #Stalker OW - Start
-        
+
     - name: Gardening
       priority: 17
       items:

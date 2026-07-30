@@ -57,9 +57,15 @@
   - type: Gun
     soundGunshot:
       path: /Audio/_Stalker/Effects/Guns/sks_shoot.ogg
-    minAngle: 52
-    maxAngle: 110
-    fireRate: 3.2
-    angleIncrease: 3
+    # StalkerOW - Begin
+    #minAngle: 52
+    minAngle: 40
+    #maxAngle: 110
+    maxAngle: 90
+    #fireRate: 3.2
+    fireRate: 4
+    #angleIncrease: 3
+    angleIncrease: 0.5
+    # StalkerOW - End
     angleDecay: 15
     projectileSpeed: 70

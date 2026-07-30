@@ -17,6 +17,9 @@
     STWeaponRifleLR300v1: 10
     STWeaponRifleOC14WinterMono: 10
     STWeaponSniperMosin: 10
+    STWeaponSMGStalkerCP2Veresk: 10 # ow chaange
+    RGD5Grenade: 10 # ow change
+    DG05SmokeGrenade: 10 # ow change
     MonolithCrate545Mag30: 10
     MonolithCrate545PC: 10
     MonolithCrate556Mag30: 10
@@ -26,6 +29,10 @@
     MonolithCrate739Mag30: 10
     MonolithCrate919Mag30: 10
     MonolithCrate919PBM: 10
+    45ACPAPBox: 10 # ow change
+    TommyGunDrum2: 10 # ow change
+    BaseTommyGunMag: 10 # ow change
+    VityazMag: 10 # ow change
     ClothingOuterJacketMonolith: 10
     STClothingNeckFacescarfWhite: 10
     STClothingNeckFacescarfGrey: 10
@@ -185,7 +192,6 @@
     items:
       STWeaponRifleG36Mono: 50
       STWeaponRifleStalkerAK12Mono: 30
-      STWeaponSMGStalkerCP2Veresk: 8
       STWeaponRifleStalkerAbakanWinterMono: 64
       STWeaponShotgunProtecta: 10
       STSharpenedKnife: 1
@@ -193,13 +199,13 @@
       WeaponPistolGSH18: 1
       #STWeaponSniperSVDMono: 85 - StalkerOW: Removed until T4 is back.
       STClothingBeltThrowingKnifes: 5
-
+      STWeaponSMGThompson: 8 # OW
+      # STWeaponSMGStalkerCP2Veresk: 8 old world change
   - name: shop-category-magazines
     priority: 2
     items:
       GSH-18Mag18: 1
-      VityazMag: 1
-
+      #vityazmag: 1 old world change
   - name: shop-category-armor
     priority: 3
     items:
