@@ -256,7 +256,10 @@
   id: NPCMilitaryVoenstalEN # Voenstal
   name: Vitaly 'Quartermaster'[→ ←]
   suffix: ST, Voenstal, EN-TRADER
-  description: He's the Quartermaster sells government property among the soldiers.
+  # ST:OW begin
+  #description: The quartermaster for Voenstal soldiers within the zone.
+  description: The quartermaster for Voenstal soldiers within the zone.
+  # ST:OW end
   components:
   - type: Sprite
     sprite: _Stalker/NPC/Groups/Military.rsi
@@ -296,7 +299,10 @@
   id: NPCMilitaryPraporEN # OKSOP
   name: Banner [→   ←]
   suffix: ST, OKSOP, EN-TRADER
-  description: He sells government property among the soldiers.
+  # ST:OW begin
+  # description: He sells government property among the soldiers.
+  description: A burly man who sells wares to soldiers.
+  # ST:OW end
   components:
   - type: Sprite
     sprite: _Stalker/NPC/Groups/prapor-military.rsi
@@ -336,7 +342,10 @@
   id: NPCMilitaryOfficerEN # OKSOP Officers
   name: Vitaly 'Quartermaster'[→ ←]
   suffix: ST, Military, EN-TRADER
-  description: He's the Quartermaster sells government property among the soldiers.
+  # ST:OW begin
+  #description: He's the Quartermaster sells government property among the soldiers.
+  description: The quartermaster in charge of keeping the officers' armory tidy and well stocked.
+  # ST:OW end
   components:
   - type: Sprite
     sprite: _Stalker/NPC/Groups/Military.rsi

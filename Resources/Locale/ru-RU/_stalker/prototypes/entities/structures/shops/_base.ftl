@@ -1,3 +1,3 @@
 ent-StalkerShop = торгомат, общий
-    .desc = Теперь ещё и покупает!
+    .desc = Dispenses various military apparel from around the world.
     .suffix = ST, Mapping, общий

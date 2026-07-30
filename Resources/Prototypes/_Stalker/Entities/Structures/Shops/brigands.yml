@@ -3,7 +3,10 @@
   parent: StalkerShop
   id: StalkerShopBandits
   name: Торгомат, бригады
-  description: Теперь ещё и покупает!
+  #ST:OW - begin
+  #description: Теперь ещё и покупает!
+  description: Dispenses various military apparel from around the world.
+  #ST:OW - end
   suffix: ST, Mapping, бандиты
   components:
   - type: Sprite
@@ -21,7 +24,10 @@
   parent: StalkerShop
   id: StalkerDollarShopBandits
   name: Торгомат, бригады
-  description: Теперь ещё и покупает!
+  #ST:OW - begin
+  #description: Теперь ещё и покупает!
+  description: Dispenses various military apparel from around the world.
+  #ST:OW - end
   suffix: ST, Mapping, бандиты Т4
   components:
   - type: Sprite

@@ -1,5 +1,5 @@
 ent-StalkerShopBandits = Торгомат, бригады
-    .desc = Теперь ещё и покупает!
+    .desc = Dispenses various military apparel from around the world.
     .suffix = ST, Mapping, бандиты
 ent-StalkerDollarShopBandits = { ent-StalkerShopBandits }
     .desc = { ent-StalkerShopBandits.desc }

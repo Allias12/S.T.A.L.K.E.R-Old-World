@@ -2,7 +2,10 @@
   parent: BaseStructure
   id: StalkerShop
   name: торгомат, общий
-  description: Теперь ещё и покупает!
+  # ST:OW begin
+  #description: Теперь ещё и покупает!
+  description: Dispenses military apparel from around the world.
+  # ST:OW end
   suffix: ST, Mapping, общий
   components:
   - type: Physics

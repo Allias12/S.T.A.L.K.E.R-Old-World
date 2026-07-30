@@ -218,9 +218,11 @@
     - id: MedkitMilitary
     - id: MedkitScience
     - id: MedkitScience
-    - id: STTourniquet
-    - id: STOintmentGood
-    - id: STGauze
+    # ST:OW - These are useless bloat items.
+    #- id: STTourniquet
+    #- id: STOintmentGood
+    #- id: STGauze
+    # ST:OW
     - id: STFlashlightSeclite
     - id: STBoltBagFilled
     - id: BaseRadio

@@ -1,3 +1,3 @@
 ent-StalkerShopSci = Торгомат, учёные
-    .desc = Теперь ещё и покупает!
+    .desc = Dispenses various military apparel from around the world.
     .suffix = ST, Mapping, учёные

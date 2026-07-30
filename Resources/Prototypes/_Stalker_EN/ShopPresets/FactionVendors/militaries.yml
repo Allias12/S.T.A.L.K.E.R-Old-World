@@ -1,5 +1,5 @@
 - type: shopPreset
-  id: MilitaryPremiumShopPresetEN # PENDING REWORK
+  id: MilitaryPremiumShopPresetEN # ST:OW REWORK IN PROGRESS
   minSellPrice: 0
   itemsForSale:
     ClothingNeckDogtagBrigand: 2
@@ -47,23 +47,35 @@
   - name: shop-category-storage-and-containers
     priority: 6
     items:
+      #Equiv. 8k roubles
       ClothingBackpackDuffelOliveTacticStalker: 4
       ClothingBackpackDuffelMilitaryOlive: 4
+      # ST:OW begin
+      ClothingBackpackDuffelBlackTacticStalker: 4
+      ClothingBackpackDuffelBlackMilitaryTacticStalker: 4
+      # ST:OW end
+      
 
   - name: shop-category-raincoats-and-gasmasks
     priority: 7
     items:
+      # Cloaks
+      # If someone has some good additions for ST:OW, it'd be much appreciated
       # Gas Masks
-      ClothingMaskM51: 8 # T4
+      ClothingMaskM51: 8 #Equiv. 16k roubles
 
   - name: shop-category-modules
     priority: 8
     items:
-      STModuleScopeRiflesT2Ru: 1
-      STModuleSniperSightT2: 1
+      STModuleScopeRiflesT2Ru: 1 #Equiv. 2k roubles
+      STModuleSniperSightT2: 1 #Equiv. 2k roubles
+      # ST:OW begin
+      STModuleSilencerRiflesT2Ru: 3 #Equiv. 6k roubles
+      STModuleSilencerSniperT2: 3 #Equiv. 6k roubles
+      # ST:OW end
 
 - type: shopPreset
-  id: VoenstalShopPresetEN # Voenstals
+  id: VoenstalShopPresetEN # This needs to be destroyed. Reworking pending for ST:OW
   minSellPrice: 5
   itemsForSale:
     TradeBox: 1
@@ -185,12 +197,14 @@
   - name: shop-category-storage-and-containers
     priority: 5
     items:
-      # BackPacks
+      # Backpacks
       ClothingBackpackDuffelBlackStalker: 30 # T1
       ClothingBackpackTacticBlackRadStalker: 450 # T2
       ClothingBackpackMercStalker: 650 # T3
-      ClothingBackpackDuffelBlackMilitaryTacticStalker: 1050 # T4
-      ClothingBackpackDuffelBlackTacticStalker: 1000 # T4
+      # ST:OW begin
+      #ClothingBackpackDuffelBlackTacticStalker: 1000 # T4
+      #ClothingBackpackDuffelBlackMilitaryTacticStalker: 1000 # T4
+      # ST:OW end
       # Belts
       ClothingBeltGreenWebbingStalker: 250
       ClothingBeltWebbingOfficerStalker: 300
@@ -210,14 +224,15 @@
       # Gasmasks
       ClothingMaskGasM40Military: 100 # T2
       ClothingMaskGP21: 1200 # T3
+      
   - name: shop-category-research-equipment
     priority: 7
     items:
       STBoltBagFilled: 50
+      # Detectors
       ZoneAnomalyDetectorAD1: 450 # T1
       ZoneAnomalyDetectorAD2: 1000 # T2
-        # Detectors
-      # Пусто
+      
   - name: shop-category-utilities
     priority: 8
     items:
@@ -248,7 +263,7 @@
       STElasticRubberRed: 1
       STElasticRubberGreen: 1
       STElasticRubberBlue: 1
-      HandLabeler: 75 # OW change
+      HandLabeler: 75 # ST:OW
       # Cameras
       STCamera: 750
       STCameraVintage: 1200
@@ -379,7 +394,7 @@
       CigPackKosmos: 100 #squalid
 
 - type: shopPreset
-  id: OKSOPShopPresetEN # OKSOP REWORK IN-PROGRESS, SELL PRICES ARE SAME AS SIDOROVICH
+  id: OKSOPShopPresetEN # Same prices as Barman
   minSellPrice: 5
   itemsForSale:
     FoodTinMRETrash: 0
@@ -469,32 +484,35 @@
     MutantPartPsiDogTail: 400
     MutantPartFrogLeg: 200
 
-    #T3 -------- Health * 3 Modified by Oracle
+    #T3 -------- Health * 3
     MutantPartBloodsuckerTentacles: 1375
     MutantPartOraculeEye: 1050
     MutantPartZombieHand: 570
     MutantPartPseudogiantHeart: 6800
     ClothingMaskChimera: 75000
-    MutantPartChimeraTooth: 35000
+    MutantPartChimeraTooth: 37500
     MutantPartIzlomArm: 815
     MutantPartBurerBrain: 1500
     MutantPartControllerBrain: 2625
 
     # Meat
-    FoodMeatDogCooked: 70
-    STFoodMeatSpiderCooked: 35
-    FoodMeatBoarCooked: 110
-    FoodMeatSTBearCooked: 200
-    FoodMeatSTFishFilletCooked: 25
-    FoodMeatSTFishSteakCooked: 75
-    FoodMeatSTEelCooked: 150
-    STFoodMeatCvarci: 5 # 15 profit per salo baby!
-    FoodMeatSTRatCooked: 5 # whatever
-    FoodMeatSTRatJerked: 10
-    FoodMeatSTDogJerkedSingle: 75
-    FoodMeatSTBoarJerkedSingle: 125
-    FoodMeatSTBearJerkedSingle: 245
-    FoodMeatSTSuckerJerkedSingle: 600
+    # ST:OW begin
+    #FoodMeatDogCooked: 75
+    #STFoodMeatSpiderCooked: 40
+    #FoodMeatBoarCooked: 115
+    #FoodMeatSTBearCooked: 225
+    #FoodMeatSTFishFilletCooked: 75
+    #FoodMeatSTFishSteakCooked: 115
+    #FoodMeatSTEelCooked: 190
+    #STFoodMeatCvarci: 30
+    #FoodMeatSTRatCooked: 5
+    #FoodMeatSTRatJerked: 10
+    #FoodMeatSTDogJerkedSingle: 115
+    #FoodMeatSTBoarJerkedSingle: 150
+    #FoodMeatSTBearJerkedSingle: 265
+    #FoodMeatSTSuckerJerkedSingle: 675
+    #STFoodMeatSalo: 50
+    # ST:OW end
 
 # Cooking
     FoodSTFreshCheese: 100
@@ -568,7 +586,9 @@
       BaseAPSMag: 75
       # Shotguns
       Base1270Mag: 50
-      Saiga1270Mag10: 150
+      # ST:OW begin
+      #Saiga1270Mag10: 150
+      # ST:OW end
       #Saiga1270Drum: 450
       # SMGs
       VityazMag: 150
@@ -577,34 +597,37 @@
       545Mag30: 150
       739Mag30: 150
 
-  - name: shop-category-ammunition # 35% Reduction
+  - name: shop-category-ammunition 
+    # Pending ST:OW economy rework
+    # ~35% cheaper than Barman with some liberties taken so that some ammo prices aren't TOO absurd
+    # Kuro Fun Fact: While this was meant to apparently be 35% cheaper than Barman or Sido, it was actually more expensive than both!
     priority: 3
     items:
       # 7mm
-      7mmBuckshotBox: 40 # T0
-      6mmBuckshotBox: 245 # T1
-      8mmBuckshotBox: 535 # T2
+      7mmBuckshotBox: 50 # T0
+      6mmBuckshotBox: 150 # T1
+      8mmBuckshotBox: 300 # T2
       #ShotgunFlechette: 50 # T3
       # 9x18
-      918PGJBox: 50  # T1
-      918PSTBox: 365 # T2
-      918PBMBox: 925 # T3
-      918SP7Box: 405 # Mutant
+      918PGJBox: 75  # T1
+      918PSTBox: 130 # T2
+      918PBMBox: 620 # T3
+      918SP7Box: 325 # Mutant
       # 9x19
-      919PSOGJBox: 55 # T1
-      919PSTBox: 365 # T2
-      919PBMBox: 945 # T3
-      919RIPBox: 405 # Mutant
+      919PSOGJBox: 75 # T1
+      919PSTBox: 130 # T2
+      919PBMBox: 620 # T3
+      919RIPBox: 325 # Mutant
       # 5.45
-      545FMJBox: 425 # T2
-      545HPBox: 470 # Mutant
-      545PCBox: 1070 # T3
+      545FMJBox: 325 # T2
+      545HPBox: 275 # Mutant
+      545PCBox: 750 # T3
       # 7.25
-      725PSTBox: 940 # T3
-      725LRNPCBox: 405 # Mutant
+      725PSTBox: 650 # T3
+      725LRNPCBox: 400 # Mutant
       # 7.62
-      739FMJBox: 1270 # T3
-      739HPBox: 550 # Mutant
+      739FMJBox: 800 # T3
+      739HPBox: 325 # Mutant
       # 7.54
       754FMJBox: 2000 # T3
       754HPBox: 1000 # Mutant
@@ -675,8 +698,11 @@
       ClothingBackpackTacticBlackRadStalker: 450 # T2
       ClothingBackpackMercStalker: 650 # T3
       ClothingBackpackDuffelCommonStalker: 750 #T3
-      ClothingBackpackDuffelBlackMilitaryTacticStalker: 1000 # T4
-      ClothingBackpackDuffelBlackTacticStalker: 1000 # T4
+      # ST:OW begin
+      # Moved to premium vendor for the time being
+      #ClothingBackpackDuffelBlackTacticStalker: 1000 # T4
+      #ClothingBackpackDuffelBlackMilitaryTacticStalker: 1000 # T4
+      # ST:OW end
       # Belts
       ClothingBeltGreenWebbingStalker: 250
       ClothingBeltWebbingOfficerStalker: 400
@@ -708,12 +734,15 @@
       STBoltBagFilled: 50
       ZoneAnomalyDetectorAD1: 450 # T1
       ZoneAnomalyDetectorAD2: 1000 # T2
-      STLeadPlate: 200 # PvE Anti-Rad if abused raise price, enjoy my mili chuds
+      # Obsolete
+      #STLeadPlate: 200
 
   - name: shop-category-utilities
     priority: 10
     items:
       PremiumSupplyTalons: 2000
+      HandLabeler: 75 # ST:OW
+      HuntingKnife: 1500
       STCombatKnife: 25
       BoxZiptie: 50
       BoxSafebox: 300
@@ -727,7 +756,7 @@
       HandheldGPSBasic: 50
       Paper: 2
       Pen: 5
-      BoxFolderClipboardEmpty: 20 # Clipboard
+      BoxFolderClipboardEmpty: 20
       Binocularus1: 1000
       BoxFlare: 60
       ClothingBackpackDuffelGreenStalkerHydroponic: 500
@@ -804,7 +833,8 @@
       Paper: 5
       Pen: 5
       LuxuryPen: 15
-      BoxFolderClipboardEmpty: 20 # Clipboard
+      BoxFolderClipboardEmpty: 20
+      HandLabeler: 75 # ST:OW
 
   - name: "Morale Boosters"
     priority: 2
