@@ -12,7 +12,7 @@
     projectileClass: 1
     damage:
       types:
-        Piercing: 16 #OW Pistols should be weaker than rifles, unsure how much though.
+        Piercing: 18 #OW Pistols should be weaker than rifles, unsure how much though.
   # - type: StaminaDamageOnCollide
     # damage: 1
 
@@ -26,7 +26,7 @@
     projectileClass: 2
     damage:
       types:
-        Piercing: 16 #OW
+        Piercing: 18 #OW
 
 - type: entity
   id: Bullet918SP7
@@ -38,7 +38,7 @@
     projectileClass: 0
     damage:
       types:
-        Mutant: 35
+        Mutant: 40 #OW
         Piercing: 5
         Blunt: 5
         Slash: 5
@@ -53,7 +53,7 @@
     projectileClass: 3
     damage:
       types:
-        Piercing: 16 #OW
+        Piercing: 18 #OW
 
 # Anomaly
 
