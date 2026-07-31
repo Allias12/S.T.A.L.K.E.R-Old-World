@@ -186,7 +186,6 @@
         STWeaponSMGMP40: 1000
         STWeaponSMGPPSh41: 2500
         STWeaponSMGPP91: 3000
-        STWeaponSMGThompson: 4000 # OW
         # Rifles
         STWeaponRifleSaiga545: 1750 # T3
         STWeaponRifleAKS74U: 2000
@@ -194,7 +193,6 @@
         # Snipers
         STWeaponSniperSKS: 1850 # T2
         STWeaponSniperMosin: 1500
-        STWeaponRifleM14: 3750 # OW
 
     - name: shop-category-magazines
       priority: 2
@@ -215,9 +213,6 @@
         MP40Mag: 150
         STSpeedLoader45ACPEmpty: 100
         PP91Mag: 200
-        751Mag20: 650 # OW
-        BaseTommyGunMag: 350 # OW
-        TommyGunDrum2: 1600 # ow
 
     - name: shop-category-ammunition
       priority: 3
@@ -251,9 +246,6 @@
         45ACPLFMJBox: 100 #T1
         45ACPRIPBox: 500 # Mutant
         45ACPMFMJBox: 1000 #t2
-        # 7.51
-        751UNBox: 600 # Mutant # OW
-        751M80Box: 1300 # T3 # OW
     - name: shop-category-medicine
       priority: 4
       items:

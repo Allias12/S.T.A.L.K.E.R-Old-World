@@ -198,6 +198,7 @@
         # Snipers
         STWeaponSniperSKS: 1850 # T2
         STWeaponSniperMosin: 1500
+        STWeaponRifleM14: 3750 # OW
 
     - name: shop-category-magazines
       priority: 2
