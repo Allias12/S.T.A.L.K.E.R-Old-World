@@ -161,9 +161,15 @@
         919PSTBox: 180 # T2
         919RIPBox: 400 # Mutant
         # .45
-        45ACPRIPBox: 450 # Mutant
-        45ACPLFMJBox: 90 # T1
-        45ACPMFMJBox: 200 # T2
+        # OW - Begin (Increase price of .45 to match damage)
+        #45ACPRIPBox: 450 # Mutant
+        #45ACPLFMJBox: 90 # T1
+        #45ACPMFMJBox: 200 # T2
+        45ACPLFMJBox: 200 # T1
+        45ACPMFMJBox: 600 # T2
+        45ACPRIPBox: 650 # Mutant
+        45ACPAPBox: 1050 # T3
+        # OW - End
         # 5.45
         545HPBox: 375 # Mutant
         545FMJBox: 270 # T2

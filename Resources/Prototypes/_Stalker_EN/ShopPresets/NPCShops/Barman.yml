@@ -243,10 +243,16 @@
         6mmBuckshotBox: 200 # T1
         8mmBuckshotBox: 450 # T2
         # .45
-        45ACPLFMJBox: 100 # T1
-        45ACPMFMJBox: 300 # T2
-        45ACPRIPBox: 550 # Mutant
-        45ACPAPBox: 950 # T3
+        # OW - Begin (Increase price of .45 to match damage)
+        #45ACPLFMJBox: 100 # T1
+        #45ACPMFMJBox: 300 # T2
+        #45ACPRIPBox: 550 # Mutant
+        #45ACPAPBox: 950 # T3
+        45ACPLFMJBox: 200 # T1
+        45ACPMFMJBox: 600 # T2
+        45ACPRIPBox: 650 # Mutant
+        45ACPAPBox: 1050 # T3
+        # OW - End
         # 7.25
         725PBox: 100 # T1
         725PTBox: 200 # T2

@@ -171,10 +171,16 @@
         MagazineBox357MagnumAP: 800 # T3
         MagazineBox357MagnumHP: 625 # Mutant
         # .45
-        45ACPLFMJBox: 100 # T1
-        45ACPMFMJBox: 300 # T2
-        45ACPRIPBox: 625 # Mutant
-        45ACPAPBox: 800 # T3
+        # OW - Begin (Increase price of .45 to match damage) Standard merc discount.
+        #45ACPLFMJBox: 100 # T1
+        #45ACPMFMJBox: 300 # T2
+        #45ACPRIPBox: 625 # Mutant
+        #45ACPAPBox: 800 # T3
+        45ACPLFMJBox: 150 # T1
+        45ACPMFMJBox: 350 # T2
+        45ACPRIPBox: 400 # Mutant
+        45ACPAPBox: 750 # T3
+        # OW - End
         # 5.56
         556FMJBox: 500 # T2
         556WarmagBox: 500 # Mutant
