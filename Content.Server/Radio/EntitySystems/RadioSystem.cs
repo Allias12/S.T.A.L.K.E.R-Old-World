@@ -40,15 +40,9 @@ public sealed class RadioSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<
-            IntrinsicRadioReceiverComponent,
-            RadioReceiveEvent>(
-            OnIntrinsicReceive);
+        SubscribeLocalEvent<IntrinsicRadioReceiverComponent, RadioReceiveEvent>(OnIntrinsicReceive);
 
-        SubscribeLocalEvent<
-            IntrinsicRadioTransmitterComponent,
-            EntitySpokeEvent>(
-            OnIntrinsicSpeak);
+        SubscribeLocalEvent<IntrinsicRadioTransmitterComponent, EntitySpokeEvent>(OnIntrinsicSpeak);
 
         // ST:OW begin
         SubscribeLocalEvent<
@@ -160,10 +154,7 @@ public sealed class RadioSystem : EntitySystem
                 TransformComponent>();
 
         while (canSend &&
-               radioQuery.MoveNext(
-                   out var receiver,
-                   out var radio,
-                   out var transform))
+               radioQuery.MoveNext(out var receiver, out var radio, out var transform))
         {
             // ST:OW begin
             // Only entities connected to the hivemind can receive the Monolith channel

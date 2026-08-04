@@ -220,11 +220,7 @@ public new const int VoiceRange = 15; // how far voice goes in world units
         // This message may have a radio prefix, and should then be whispered to the resolved radio channel
         if (checkRadioPrefix)
         {
-            if (TryProcessRadioMessage(
-                    source,
-                    message,
-                    out var modMessage,
-                    out var channel))
+            if (TryProcessRadioMessage(source, message, out var modMessage, out var channel))
             {
         // ST:OW begin
         // Monolith comms does not pick up nearby chatter
@@ -501,7 +497,7 @@ public new const int VoiceRange = 15; // how far voice goes in world units
     private void SendEntityWhisper(
         EntityUid source,
         string originalMessage,
-        ChatTransmitRange range,a
+        ChatTransmitRange range,
         RadioChannelPrototype? channel,
         string? nameOverride,
         bool hideLog = false,
