@@ -19,25 +19,25 @@
         - id: STCraftSheetBrassT3
           prob: 0.4
         - id: STCraftHighPerformanceChipT4
-          prob: 0.2
+          prob: 0.1
         - id: STCraftHighPerformanceChipT4
-          prob: 0.2
+          prob: 0.1
         - id: STCraftSheetAluminumT4
-          prob: 0.2
+          prob: 0.1
         - id: STCraftSheetAluminumT4
-          prob: 0.2
+          prob: 0.1
         - id: STCraftPlasticFittingT4
-          prob: 0.2
+          prob: 0.1
         - id: STCraftPlasticFittingT4
-          prob: 0.2
+          prob: 0.1
         - id: STCraftPolymerFabricT4
-          prob: 0.2
+          prob: 0.1
         - id: STCraftPolymerFabricT4
-          prob: 0.2
+          prob: 0.1
         - id: STCraftIndustrialThreadStaplesKitT4
-          prob: 0.2
+          prob: 0.1
         - id: STCraftIndustrialThreadStaplesKitT4
-          prob: 0.2
+          prob: 0.1
         - id: STCraftNanoChipT5
           prob: 0.4
         - id: STCraftSheetSteelT5

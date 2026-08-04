@@ -123,13 +123,13 @@
         - id: STCraftTransformer
           prob: 0.15
         - id: STCraftHighPerformanceChipT4
-          prob: 0.05
+          prob: 0.005
         - id: STCraftSheetAluminumT4
-          prob: 0.05
+          prob: 0.005
         - id: STCraftPlasticFittingT4
-          prob: 0.05
+          prob: 0.005
         - id: STCraftPolymerFabricT4
-          prob: 0.05
+          prob: 0.001
         - id: STCraftIndustrialThreadStaplesKitT4
           prob: 0.001
         - id: RGD5Grenade
