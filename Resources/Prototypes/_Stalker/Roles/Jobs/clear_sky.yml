@@ -26,6 +26,9 @@
       - type: Bands
         altBand: stalker
         canChange: true
+        # ST:OW begin
+        startDisguised: true
+        # ST:OW end
         band: Stalker
         bandIcon: cn
         bandProto: STClearSkyBand
@@ -73,6 +76,9 @@
     - type: Bands
       altBand: stalker
       canChange: true
+      # ST:OW begin
+      startDisguised: true
+      # ST:OW end
       band: Stalker
       bandIcon: cn
       bandProto: STClearSkyBand

@@ -9,38 +9,48 @@
     - type: InteractionOutline
     - type: StorageFill
       contents:
+        # OW CHANGE START
+        - id: STCraftSheetBrassT3
+          prob: 0.4
+        - id: STCraftSheetBrassT3
+          prob: 0.4
+        - id: STCraftSheetBrassT3
+          prob: 0.4
+        - id: STCraftSheetBrassT3
+          prob: 0.4
         - id: STCraftHighPerformanceChipT4
-          prob: 0.01
+          prob: 0.1
         - id: STCraftHighPerformanceChipT4
-          prob: 0.01
+          prob: 0.1
         - id: STCraftSheetAluminumT4
-          prob: 0.05
+          prob: 0.1
         - id: STCraftSheetAluminumT4
-          prob: 0.05
+          prob: 0.1
         - id: STCraftPlasticFittingT4
-          prob: 0.05
+          prob: 0.1
         - id: STCraftPlasticFittingT4
-          prob: 0.05
+          prob: 0.1
         - id: STCraftPolymerFabricT4
-          prob: 0.01
+          prob: 0.1
         - id: STCraftPolymerFabricT4
-          prob: 0.01
+          prob: 0.1
         - id: STCraftIndustrialThreadStaplesKitT4
-          prob: 0.01
+          prob: 0.1
         - id: STCraftIndustrialThreadStaplesKitT4
-          prob: 0.01
+          prob: 0.1
         - id: STCraftNanoChipT5
-          prob: 0.1
+          prob: 0.4
         - id: STCraftSheetSteelT5
-          prob: 0.1
+          prob: 0.4
         - id: STCraftRedWoodPlankT5
-          prob: 0.1
+          prob: 0.4
         - id: STCraftAluminumOxideT5
-          prob: 0.1
+          prob: 0.4
         - id: STCraftCompositeMaterialT5
-          prob: 0.1
+          prob: 0.4
         - id: STCraftHighStrengthKitT5
-          prob: 0.1
+          prob: 0.4
+        # OW change end
         - id: STBrutepack
           prob: 0.4
         - id: STBrutepack

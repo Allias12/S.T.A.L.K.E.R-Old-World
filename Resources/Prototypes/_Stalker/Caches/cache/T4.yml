@@ -9,32 +9,36 @@
     - type: InteractionOutline
     - type: StorageFill
       contents:
+        # OW CHANGE START
         - id: STCraftMultilayerPCBT3
-          prob: 0.01
+          prob: 0.1
         - id: STCraftMultilayerPCBT3
-          prob: 0.01
+          prob: 0.1
         - id: STCraftQuartzCrystalT3
-          prob: 0.05
+          prob: 0.1
         - id: STCraftQuartzCrystalT3
-          prob: 0.05
+          prob: 0.1
         - id: STCraftSturdyHideT3
-          prob: 0.01
+          prob: 0.1
         - id: STCraftSturdyHideT3
-          prob: 0.01
+          prob: 0.1
         - id: STCraftGlueKitT3
-          prob: 0.01
+          prob: 0.1
         - id: STCraftGlueKitT3
-          prob: 0.01
+          prob: 0.1
+        - id: STCraftSheetBrassT3
+          prob: 0.5
         - id: STCraftHighPerformanceChipT4
-          prob: 0.1
+          prob: 0.3
         - id: STCraftSheetAluminumT4
-          prob: 0.1
+          prob: 0.3
         - id: STCraftPlasticFittingT4
           prob: 0.3
         - id: STCraftPolymerFabricT4
-          prob: 0.1
+          prob: 0.3
         - id: STCraftIndustrialThreadStaplesKitT4
-          prob: 0.1
+          prob: 0.3
+        # ow change end
         - id: STBrutepack
           prob: 0.35
         - id: STBrutepack

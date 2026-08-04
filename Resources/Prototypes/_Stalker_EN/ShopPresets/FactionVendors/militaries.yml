@@ -8,10 +8,12 @@
   - name: shop-category-weapons
     priority: 1
     items:
-      STWeaponRifleAKMC: 3
-      STWeaponRifleAK74M: 5
-      STWeaponRifleOC14: 8
-      #STWeaponSniperVepr: 14
+      # ow changes begin
+      STWeaponRifleAKMC: 1
+      STWeaponRifleAK74M: 3
+      STWeaponRifleOC14: 5
+      STWeaponSniperVepr: 8 # 16k is much more reasonable
+      # ow changes end
       #STWeaponRifleAK103: 18
 
   - name: shop-category-magazines
@@ -54,7 +56,7 @@
       ClothingBackpackDuffelBlackTacticStalker: 4
       ClothingBackpackDuffelBlackMilitaryTacticStalker: 4
       # ST:OW end
-      
+
 
   - name: shop-category-raincoats-and-gasmasks
     priority: 7
@@ -74,325 +76,7 @@
       STModuleSilencerSniperT2: 3 #Equiv. 6k roubles
       # ST:OW end
 
-- type: shopPreset
-  id: VoenstalShopPresetEN # This needs to be destroyed. Reworking pending for ST:OW
-  minSellPrice: 5
-  itemsForSale:
-    TradeBox: 1
-
-  categories:
-  - name: shop-category-weapons
-    priority: 1
-    items:
-      # Guns
-      # 7mm
-      STWeaponShotgunMP133: 385 # T1.5
-      STWeaponShotgunMP153: 900 # T2
-      STWeaponShotgunSaiga12: 3150 # T4
-      # 5,45x39
-      STWeaponRifleAKS74U: 1490
-      STWeaponRifleAKS74: 3000
-      STWeaponRifleAK74M: 4350
-      STWeaponMachineGunRPD: 9000
-      STWeaponSniperSVDS: 11000
-      # Smg
-      STWeaponSMGPP91: 750
-      STWeaponSMGPP19: 2000
-      STWeaponSMGPP1901: 1500
-      STWeaponSMGPP2000: 1650
-      # Other
-      #STWeaponRifleAK103: 5000 - StalkerOW: Removed until T4 is back.
-      #STWeaponRifleAK203: 6500 - StalkerOW: Removed until T4 is back.
-      WeaponPistolStalkerPM: 100 #T1
-      WeaponPistolStalkerAPS: 500 #T2
-      WeaponPistolStalkerTT: 550
-      STWeaponSniperMosin: 1000
-      STWeaponRifleAKM: 3000
-      #STWeaponRifleASVAL: 15000 Fuck the ASVAL
-      STWeaponSniperVSS: 12000
-      STWeaponRevolverSWPC325TR: 350
-
-  - name: shop-category-magazines
-    priority: 2
-    items:
-      Magazine762x39RPD: 1200
-      # 7mm
-      Base1270Mag: 100 #T1
-      Saiga1270Mag10: 300
-      # 5,45x39
-      Base545Mag10: 50 #T1
-      545Mag20: 100 #T2
-      545Mag30: 220 #T3
-      545Mag45: 300
-      # 7,62x54 and 39
-      Base739Mag10: 100
-      Base754Mag5: 250 #T1
-      739Mag30: 290
-      754Mag10: 340
-      # Smg
-      PP91Mag: 210
-      VityazMag: 300
-      BizonMag: 500
-      # Other
-      BasePMMag: 70
-      TTMag: 98
-      BaseAPSMag: 100
-      STSpeedLoader357MagnumEmpty: 60
-
-  - name: shop-category-ammunition
-    priority: 3
-    items:
-      6mmBuckshotBox: 115
-      7mmBuckshotBox: 45
-      # 7.25
-      725PBox: 85
-      725PTBox: 210
-      725PSTBox: 640
-      # 9.18
-      918PGJBox: 75
-      918PSTBox: 180
-      918PBMBox: 450
-      # 9x39 boxes
-      STBox9x39PSO: 250
-      STBox9x39SP6Uch: 50
-      STBox9x39SP5: 250
-      STBox9x39PAB9: 625
-      # 9.19
-      919PSOGJBox: 75
-      919PSTBox: 180
-      919PBMBox: 450
-      # 5.45
-      545FMJBox: 170
-      545HPBox: 640
-      545PCBox: 425
-      # 7.39
-      739FMJBox: 640
-      739HPBox: 835
-      # 7.54
-      754FMJBox: 675
-      754HPBox: 1015
-      # .357
-      MagazineBox357Magnum: 260 # T2
-      MagazineBox357MagnumAP: 500 # T3
-
-  - name: shop-category-armor
-    priority: 4
-    items:
-      # Helmets #
-      ClothingHeadHelmetSH68: 200 # T1 - PVP
-      ClothingHeadHelmetInfantryMilitary: 600 # T2 - PVP
-      ClothingHeadAssaultHelmetMilitary: 1200 # T3 - PVP
-      ClothingHeadHelmetBerill5MMilitary: 950 # T2 - PVP
-      ClothingHeadHelmetVityaz1C: 2000 # T3 - PVP
-      # OuterClothing #
-      STClothingOuterArmorLightPlateVestBaseMilitary: 750 # T2 - PvP
-      ClothingOuterArmor6B2: 1200 # T2 - PvP
-      ClothingOuterArmorMilitarySpark: 1750 # T2 - ENV
-      ClothingOuterArmorZaryaMilitary: 1750 # T2 - universal
-      STClothingOuterArmorLightPlateVestBaseANAgreen: 2250 # T3 - PVP
-      STClothingOuterArmorLightPlateVestBaseANAgray: 2250 # T3 - PVP
-      STClothingOuterArmorLightPlateVestBasePSZ7v3: 3000
-      STClothingOuterArmorLightPlateVestBasePSZ7v1: 3000
-
-  - name: shop-category-storage-and-containers
-    priority: 5
-    items:
-      # Backpacks
-      ClothingBackpackDuffelBlackStalker: 30 # T1
-      ClothingBackpackTacticBlackRadStalker: 450 # T2
-      ClothingBackpackMercStalker: 650 # T3
-      # ST:OW begin
-      #ClothingBackpackDuffelBlackTacticStalker: 1000 # T4
-      #ClothingBackpackDuffelBlackMilitaryTacticStalker: 1000 # T4
-      # ST:OW end
-      # Belts
-      ClothingBeltGreenWebbingStalker: 250
-      ClothingBeltWebbingOfficerStalker: 300
-      ClothingBeltBandolierStalker: 20 # T1 - PVE
-      ClothingBeltTarzanBlack: 200 # T1 - PVP
-      ClothingBeltTarzanGreen: 200 # T1 - PVP
-      # Containers
-      MedkitCMSStalker: 450 # T1
-      MedkitGrizzlyStalker: 850 # T2
-
-  - name: shop-category-raincoats-and-gasmasks
-    priority: 6
-    items:
-      # Cloaks
-      ClothingOuterCoatDoshdevik: 60 # T1
-      ClothingOuterCoatBolotniy: 1000
-      # Gasmasks
-      ClothingMaskGasM40Military: 100 # T2
-      ClothingMaskGP21: 1200 # T3
-      
-  - name: shop-category-research-equipment
-    priority: 7
-    items:
-      STBoltBagFilled: 50
-      # Detectors
-      ZoneAnomalyDetectorAD1: 450 # T1
-      ZoneAnomalyDetectorAD2: 1000 # T2
-      
-  - name: shop-category-utilities
-    priority: 8
-    items:
-      STCombatKnife: 25
-      BoxZiptie: 50
-      BoxSafebox: 300
-      CheapLighter: 5
-      GeigerCounter: 50
-      BaseRadio: 50
-      STRadioHeadset: 150
-      STFlashlightSeclite: 50
-      PowerCellHyper: 50
-      HandheldGPSBasic: 50
-      Paper: 2
-      Pen: 5
-      Binocularus1: 1000
-      BoxFlare: 60
-      ClothingBackpackDuffelGreenStalkerHydroponic: 500
-      Beaker: 40
-      Syringe: 20
-      ClothingGoPro: 250
-      ExtendedEmergencyOxygenTankFilledStalker: 50
-      TrashDetectorTier1: 200
-      Matchbox: 10
-      HatchetStalker: 150
-      CraftBag: 10
-      CasseteArstotzka1984: 500
-      STElasticRubberRed: 1
-      STElasticRubberGreen: 1
-      STElasticRubberBlue: 1
-      HandLabeler: 75 # ST:OW
-      # Cameras
-      STCamera: 750
-      STCameraVintage: 1200
-      STCameraDamaged: 400
-      STCameraFilm: 150
-      STLoggingChainsaw: 1000
-
-  - name: shop-category-provisions
-    priority: 9
-    items:
-      STEnergyDrink: 150
-      STEnergyDrinkMonster: 150
-      STEnergyDrinkRevo: 200
-      STDrinkBeerCanBaltic: 90
-      DrinkCossackVodkaBottleFull: 55
-      STFoodBreadPlain: 35
-      DrinkFlaskOld: 30
-      DrinkWaterBottleFull: 45
-      FoodTinMRE: 120
-      DrinkLemonadehBottleFull: 50
-      STFoodMeatSalami: 350
-      HerculesBottleFull: 200
-
-  - name: shop-category-medicine
-    priority: 10
-    items:
-      # Cheap
-      PillDexalin: 10
-      PillDexalinPlusStalker: 25
-      STOintment: 10
-      STGauze: 15
-      STBrutepack: 10
-      # Expensive
-      antiradpill: 50
-      radioprotectpill: 75
-      Bloodpack: 75
-      psyblock: 150
-      MedkitMilitary: 75
-      Defibrillator: 700
-
-  - name: shop-category-modules
-    priority: 11
-    items:
-      STModuleScopeRiflesT1Ru: 600
-      STModuleScopeRiflesT1Nato: 600
-      STModuleSilencerRiflesT1Ru: 400
-      STModuleSilencerRiflesT1Nato: 400
-      STModuleShotgunChokeT1: 200
-      STModuleSMGGripT1: 600
-      STModuleSilencerSMGT1: 600
-      STModuleSilencerPistolT1: 400
-      STModuleSniperSightT1: 600
-      STModuleSilencerSniperT1: 600
-      STModuleAutoSear: 600
-
-  - name: shop-category-customization
-    priority: 12
-    items:
-      ClothingBandageStalkerUk: 10
-      ClothingHeadHatBeaniehat: 10
-      ClothingMaskNeckFacemask: 10
-      ClothingMaskNeckBalaklava1: 10
-      ClothingMaskNeckBalaklava2: 10
-      ClothingMaskNeckBalaklava3: 10
-      ClothingHeadBandMerc: 30
-      ClothingHeadBandSkull: 30
-      ClothingHeadHatUshanka: 30
-      ClothingHandsGlovesFingerless: 30
-      ClothingHandsGlovesMercFingerless: 60
-      ClothingShoesColorBlack: 30
-      ClothingShoesBootsWork: 30
-      ClothingShoesLeather: 30
-      ClothingShoesBootsMerc: 30
-      ClothingShoesSwat: 35
-      ClothingHeadHatBlacksoft: 10
-      ClothingHeadHatGreysoft: 10
-      ClothingHeadHatSovietUshankaStalker: 40
-      ClothingCloakStalker: 30
-      ClothingLegsJeansBlue: 10
-      ClothingLegsJeansStalker: 10
-      ClothingLegsJeansGreenCargo: 10
-      ClothingLegsJeansGreyCargo: 10
-      ClothingLegsJeansBlackCargo: 10
-      ClothingLegsJeansBrownCargo: 10
-      ClothingLegsJeansSandCargo: 10
-      ClothingLegsJeansRussianPixel: 20
-      ClothingLegsJeansBlackNew: 20
-      ClothingLegsJeansGorka: 20
-      ClothingShoesBootsCombat: 30
-      ClothingTorsoTShirtPivozavr: 30
-      ClothingTorsoTShirtSailorSuit: 30
-      ClothingTorsoTShirtColorBlack: 30
-      ClothingTorsoTurtlenecksBlack: 90
-      ClothingTorsoTurtlenecksGorka: 90
-      ClothingTorsoTurtlenecksGorka6: 90
-      ClothingTorsoTurtlenecksBereza: 90
-      ClothingLegsJeansBereza: 20
-      ClothingLegsJeansGorka6: 20
-      ClothingTorsoTurtlenecksGorkaRus: 90
-      # new shit
-      ClothingLegsBattlePantsBlack: 50
-      ClothingLegsVeryBlueJenas: 50
-      ClothingLegsCombatForest: 50
-      ClothingLegsGorka5: 50
-      ClothingLegsGorka6b: 50
-      ClothingLegsNavyPants: 50
-      ClothingLegsRussianNumber: 50
-      ClothingTorsoTurtlenecksBattleTurtleneckbBlack: 50
-      ClothingTorsoTurtlenecksBlackTurtleneck: 50
-      ClothingTorsoTurtlenecksCombatForest: 50
-      ClothingTorsoTurtlenecksGorka5: 50
-      ClothingTorsoTurtlenecksGorka6B: 50
-      ClothingTorsoTurtlenecksKhakiTurtleneck: 50
-      ClothingTorsoTurtlenecksMatrosska: 50
-      STClothingNeckFacescarfBlack: 50
-      STClothingNeckFacescarfLightGreen: 50
-
-  - name: Smokables #explained using D&D lifestyle expenses
-    priority: 13
-    items:
-      CigPackBub: 250 #comfortable
-      CigPackGreen: 150 #poor
-      CigPackRed: 200 #modest
-      CigPackBlue: 150 #poor
-      CigPackBlack: 200 #modest
-      CigPackMixed: 250 #comfortable
-      CigPackMarlboro: 200 #modest
-      CigPackKosmos: 100 #squalid
-
+# stalker ow removes voenstal
 - type: shopPreset
   id: OKSOPShopPresetEN # Same prices as Barman
   minSellPrice: 5
@@ -597,7 +281,7 @@
       545Mag30: 150
       739Mag30: 150
 
-  - name: shop-category-ammunition 
+  - name: shop-category-ammunition
     # Pending ST:OW economy rework
     # ~35% cheaper than Barman with some liberties taken so that some ammo prices aren't TOO absurd
     # Kuro Fun Fact: While this was meant to apparently be 35% cheaper than Barman or Sido, it was actually more expensive than both!
@@ -654,6 +338,7 @@
       STEnergyDrinkMonster: 150
       HerculesBottleFull: 200
       STEnergyDrinkRevo: 200
+      STEnergyDrinkWhiteMonster: 200 # enjoy a gift from me to you
       STDrinkBeerCanBaltic: 90
       DrinkVodkaBottleFull: 55
       DrinkCossackVodkaBottleFull: 100

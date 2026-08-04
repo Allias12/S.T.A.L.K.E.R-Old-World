@@ -551,11 +551,11 @@
       flatReductions:
         Blunt: 5
         Slash: 5
-        Piercing: 5
+        Piercing: 6 # ow change
       coefficients:
         Blunt: 0.70
         Slash: 0.60
-        Piercing: 0.70
+        Piercing: 0.60 # ow change
         Compression: 0.8
         Radiation: 0.90
         Heat: 0.75
@@ -563,6 +563,8 @@
         Shock: 0.75
   - type: GrantsArtifactSlots
     slots: 5 # EN
+  - type: PersonalDamage # ow chnage
+    staminaDamage: -3
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHatMonolith
     slot: head

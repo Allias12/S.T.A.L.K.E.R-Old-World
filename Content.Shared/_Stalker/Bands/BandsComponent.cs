@@ -21,7 +21,11 @@ public sealed partial class BandsComponent : Component
 
     [DataField]
     public bool CanChange;
-
+    // ST:OW begin
+    // whether this character should automatically equip their alternative faction patch when initialized -Kuro
+    [DataField("startDisguised"), ViewVariables(VVAccess.ReadWrite)]
+    public bool StartDisguised;
+    // ST:OW end
     [DataField, AutoNetworkedField]
     public bool IsDisguised; // stalker-en: tracks whether using alternative patch
 

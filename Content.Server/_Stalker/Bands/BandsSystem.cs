@@ -370,25 +370,35 @@ namespace Content.Server._Stalker.Bands
         private void OnInit(EntityUid uid, BandsComponent component, ComponentInit args)
         {
             EnsureComp<StatusIconComponent>(uid);
-            // stalker-en start:
-            // Automatically apply patch swap on spawn for any faction with AltBand
-            // This makes them spawn with the alternative patch instead of the original
-            if (component is { AltBand: not null, CanChange: true })
+            
+            // ST:OW begin
+            // only entities with an alternative patch and permission to change it receive the patch-swapping action
+            if (component is not { AltBand: not null, CanChange: true })
+                return;
+
+            _actions.AddAction(
+                uid,
+                ref component.ActionChangeEntity,
+                component.ActionChange,
+                uid);
+
+            // only factions configured to start disguised should automatically equip their alternative patch -Kuro
+            if (!component.StartDisguised)
+                return;
+
+            (component.BandStatusIcon, component.AltBand) =
+                (component.AltBand, component.BandStatusIcon);
+
+            component.IsDisguised = true;
+
+            if (TryComp<CharacterPortraitComponent>(uid, out var portraitComp))
             {
-                _actions.AddAction(uid, ref component.ActionChangeEntity, component.ActionChange, uid);
-
-                (component.BandStatusIcon, component.AltBand) = (component.AltBand, component.BandStatusIcon);
-                component.IsDisguised = true;
-
-                if (TryComp<CharacterPortraitComponent>(uid, out var portraitComp))
-                {
-                    portraitComp.IsDisguised = true;
-                    Dirty(uid, portraitComp);
-                }
-
-                Dirty(uid, component);
+                portraitComp.IsDisguised = true;
+                Dirty(uid, portraitComp);
             }
-            // stalker-en end
+
+            Dirty(uid, component);
+            // ST:OW end
         }
 
         private void OnChange(Entity<BandsComponent> entity, ref ChangeBandEvent args)
