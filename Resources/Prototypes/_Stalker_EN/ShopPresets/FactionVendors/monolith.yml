@@ -211,7 +211,7 @@
       ClothingOuterArmorSevaMonolithPriest: 15
       ClothingHeadHelmetBerill5MMonolith: 8
       ClothingHeadHelmetBulatMonolith: 10
-      #ClothingOuterArmorBerill5MMonolith: 50 - StalkerOW: Removed until T4 is back.
+      ClothingOuterArmorBerill5MMonolith: 50 # OW we added it back 
 
   - name: shop-category-grenades
     priority: 4
