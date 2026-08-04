@@ -256,10 +256,16 @@
         545HPBox: 690
         545PCBox: 1500
          # .45
-        45ACPLFMJBox: 80
-        45ACPMFMJBox: 550
-        45ACPRIPBox: 625
-        45ACPAPBox: 1400
+        # OW - Begin (Increase price of .45 to match damage)
+        #45ACPLFMJBox: 80
+        #45ACPMFMJBox: 550
+        #45ACPRIPBox: 625
+        #45ACPAPBox: 1400
+        45ACPLFMJBox: 200 # T1
+        45ACPMFMJBox: 600 # T2
+        45ACPRIPBox: 650 # Mutant
+        45ACPAPBox: 1050 # T3
+        # OW - End
         # .357
         MagazineBox357Magnum: 500 # T2
         MagazineBox357MagnumAP: 2000 # T3
