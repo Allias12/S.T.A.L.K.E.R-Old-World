@@ -186,6 +186,7 @@
         STWeaponSMGMP40: 1000
         STWeaponSMGPPSh41: 2500
         STWeaponSMGPP91: 3000
+        STWeaponSMGThompson: 4000 # OW
         # Rifles
         STWeaponRifleSaiga545: 1750 # T3
         STWeaponRifleAKS74U: 2000

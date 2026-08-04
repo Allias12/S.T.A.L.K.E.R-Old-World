@@ -199,6 +199,7 @@
       WeaponPistolGSH18: 1
       #STWeaponSniperSVDMono: 85 - StalkerOW: Removed until T4 is back.
       STClothingBeltThrowingKnifes: 5
+      STWeaponSMGThompson: 8 # OW
       # STWeaponSMGStalkerCP2Veresk: 8 old world change
   - name: shop-category-magazines
     priority: 2
