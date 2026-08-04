@@ -20,7 +20,7 @@
     maxAngle: 85
     angleIncrease: 1.7
     angleDecay: 10
-    fireRate: 8
+    fireRate: 6.5  #OW change
     selectedMode: FullAuto
     availableModes:
     - Burst

@@ -9,14 +9,16 @@
     - type: InteractionOutline
     - type: StorageFill
       contents:
+      # ow change start
         - id: STCraftSheetCopperT1
-          prob: 0.1
+          prob: 0.3
         - id: STCraftPinePlankT1
-          prob: 0.1
+          prob: 0.3
         - id: STCraftCottonFabricT1
-          prob: 0.1
+          prob: 0.3
         - id: STCraftBasicThreadKitT1
-          prob: 0.1
+          prob: 0.3
+        # ow change end
         - id: STBrutepack
           prob: 0.2
         - id: STGauze

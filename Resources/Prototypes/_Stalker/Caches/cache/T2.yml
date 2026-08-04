@@ -9,20 +9,22 @@
     - type: InteractionOutline
     - type: StorageFill
       contents:
+      # ow change start
         - id: STCraftStandardPCBT2
-          prob: 0.1
+          prob: 0.2
         - id: STCraftSheetIronT2
-          prob: 0.3
+          prob: 0.4
         - id: STCraftBirchPlankT2
-          prob: 0.1
+          prob: 0.2
         - id: STCraftPlasticFittingT2
-          prob: 0.2
+          prob: 0.4
         - id: STCraftGlassT2
-          prob: 0.2
+          prob: 0.4
         - id: STCraftHideT2
-          prob: 0.1
+          prob: 0.2
         - id: STCraftTapeKitT2
-          prob: 0.1
+          prob: 0.2
+        # ow change end
         - id: ST6mmBuckshotBoxCinkBluePrint
           prob: 0.05
         - id: ST8mmBuckshotBoxCinkBlueprint
