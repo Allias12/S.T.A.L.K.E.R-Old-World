@@ -13,6 +13,9 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
+// ST:OW begin
+using Content.Shared._Stalker_OW.Monolith;
+// ST:OW end
 
 namespace Content.Server.Radio.EntitySystems;
 
@@ -36,8 +39,23 @@ public sealed class RadioSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<IntrinsicRadioReceiverComponent, RadioReceiveEvent>(OnIntrinsicReceive);
-        SubscribeLocalEvent<IntrinsicRadioTransmitterComponent, EntitySpokeEvent>(OnIntrinsicSpeak);
+
+        SubscribeLocalEvent<
+            IntrinsicRadioReceiverComponent,
+            RadioReceiveEvent>(
+            OnIntrinsicReceive);
+
+        SubscribeLocalEvent<
+            IntrinsicRadioTransmitterComponent,
+            EntitySpokeEvent>(
+            OnIntrinsicSpeak);
+
+        // ST:OW begin
+        SubscribeLocalEvent<
+            MonolithHivemindComponent,
+            MonolithHivemindMessageEvent>(
+            OnMonolithHivemindMessage);
+        // ST:OW end
 
         _exemptQuery = GetEntityQuery<TelecomExemptComponent>();
     }
@@ -50,7 +68,18 @@ public sealed class RadioSystem : EntitySystem
             args.Channel = null; // prevent duplicate messages from other listeners.
         }
     }
-
+    // ST:OW begin
+    /// <summary>
+    /// Routes internal hivemind events into the radio system
+    /// </summary>
+    private void OnMonolithHivemindMessage(EntityUid uid, MonolithHivemindComponent comp, MonolithHivemindMessageEvent args)
+    {
+        if (args.Channel.ID == "Monolith")
+        {
+            SendRadioMessage(uid, args.Message, args.Channel, uid);
+        }
+    }
+    // ST:OW end
     private void OnIntrinsicReceive(EntityUid uid, IntrinsicRadioReceiverComponent component, ref RadioReceiveEvent args)
     {
         if (TryComp(uid, out ActorComponent? actor))
@@ -125,9 +154,26 @@ public sealed class RadioSystem : EntitySystem
         var hasActiveServer = HasActiveServer(sourceMapId, channel.ID);
         var sourceServerExempt = _exemptQuery.HasComp(radioSource);
 
-        var radioQuery = EntityQueryEnumerator<ActiveRadioComponent, TransformComponent>();
-        while (canSend && radioQuery.MoveNext(out var receiver, out var radio, out var transform))
+        var radioQuery =
+            EntityQueryEnumerator<
+                ActiveRadioComponent,
+                TransformComponent>();
+
+        while (canSend &&
+               radioQuery.MoveNext(
+                   out var receiver,
+                   out var radio,
+                   out var transform))
         {
+            // ST:OW begin
+            // Only entities connected to the hivemind can receive the Monolith channel
+            if (channel.ID == "Monolith" &&
+                !HasComp<MonolithHivemindComponent>(receiver))
+            {
+                continue;
+            }
+            // ST:OW end
+
             if (!radio.ReceiveAllChannels)
             {
                 if (!radio.Channels.Contains(channel.ID) || (TryComp<IntercomComponent>(receiver, out var intercom) &&

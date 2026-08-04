@@ -25,6 +25,9 @@
       - type: Bands
         altBand: stalker
         canChange: true
+        # ST:OW begin
+        startDisguised: false
+        # ST:OW end
         band: Stalker
         bandIcon: monolith
         bandProto: STMonolithBand
@@ -50,6 +53,9 @@
       - type: AutoImplant
         implants:
         - STMonoBombImplant # Stalker EN change start
+      # ST:OW begin
+      - type: MonolithHivemind
+      # ST:OW end
       - type: IntrinsicRadioReceiver
       - type: IntrinsicRadioTransmitter
         channels:
@@ -95,6 +101,9 @@
     - type: Bands
       altBand: stalker
       canChange: true
+      # ST:OW begin
+      startDisguised: false
+      # ST:OW end
       band: Stalker
       bandIcon: monolith
       bandProto: STMonolithBand
@@ -120,6 +129,9 @@
     - type: AutoImplant
       implants:
       - STMonoBombImplant # Stalker EN change start
+    # ST:OW begin
+    - type: MonolithHivemind
+    # ST:OW end
     - type: IntrinsicRadioReceiver
     - type: IntrinsicRadioTransmitter
       channels:

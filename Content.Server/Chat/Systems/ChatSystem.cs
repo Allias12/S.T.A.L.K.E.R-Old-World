@@ -35,6 +35,9 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
+// ST:OW begin
+using Content.Shared._Stalker_OW.Monolith;
+// ST:OW end
 
 namespace Content.Server.Chat.Systems;
 
@@ -217,9 +220,33 @@ public new const int VoiceRange = 15; // how far voice goes in world units
         // This message may have a radio prefix, and should then be whispered to the resolved radio channel
         if (checkRadioPrefix)
         {
-            if (TryProcessRadioMessage(source, message, out var modMessage, out var channel))
+            if (TryProcessRadioMessage(
+                    source,
+                    message,
+                    out var modMessage,
+                    out var channel))
             {
-                SendEntityWhisper(source, modMessage, range, channel, nameOverride, hideLog, ignoreActionBlocker);
+        // ST:OW begin
+        // Monolith comms does not pick up nearby chatter
+                if (channel is { ID: "Monolith" })
+                {
+                    if (HasComp<MonolithHivemindComponent>(source))
+                        SendMonolithHivemindMessage(source, modMessage, channel);
+
+                    return;
+                }
+        // ST:OW end
+
+                // Other radios work regularly
+                SendEntityWhisper(
+                    source,
+                    modMessage,
+                    range,
+                    channel,
+                    nameOverride,
+                    hideLog,
+                    ignoreActionBlocker);
+
                 return;
             }
         }
@@ -454,11 +481,27 @@ public new const int VoiceRange = 15; // how far voice goes in world units
                     $"Say from {source}, original: {originalMessage}, transformed: {message}.");
         }
     }
+    
+    // ST:OW begin
+    // Sends hivemind messages without triggering speech or whisper mechanics
+    private void SendMonolithHivemindMessage(EntityUid source, string rawMessage, RadioChannelPrototype channel)
+    { 
+    // Monoliths can communicate while critical
+        if (_mobStateSystem.IsDead(source) || !HasComp<MonolithHivemindComponent>(source))
+            return;
+
+        var sanitized = FormattedMessage.RemoveMarkupOrThrow(rawMessage).Trim();
+        if (string.IsNullOrWhiteSpace(sanitized))
+            return;
+
+        RaiseLocalEvent(source, new MonolithHivemindMessageEvent(sanitized, channel), broadcast: true);
+    }
+    // ST:OW end
 
     private void SendEntityWhisper(
         EntityUid source,
         string originalMessage,
-        ChatTransmitRange range,
+        ChatTransmitRange range,a
         RadioChannelPrototype? channel,
         string? nameOverride,
         bool hideLog = false,
