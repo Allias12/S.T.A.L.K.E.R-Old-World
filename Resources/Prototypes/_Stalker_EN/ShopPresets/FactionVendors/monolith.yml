@@ -189,9 +189,9 @@
   - name: shop-category-weapons
     priority: 1
     items:
-      STWeaponRifleG36Mono: 50
-      STWeaponRifleStalkerAK12Mono: 30
-      STWeaponRifleStalkerAbakanWinterMono: 64
+      STWeaponRifleG36Mono: 24 # OW
+      STWeaponRifleStalkerAK12Mono: 12 # OW
+      STWeaponRifleStalkerAbakanWinterMono: 48 # OW
       STWeaponShotgunProtecta: 10
       STSharpenedKnife: 1
       STKnifeShard: 85 # munny sink
@@ -211,7 +211,7 @@
       ClothingOuterArmorSevaMonolithPriest: 15
       ClothingHeadHelmetBerill5MMonolith: 8
       ClothingHeadHelmetBulatMonolith: 10
-      #ClothingOuterArmorBerill5MMonolith: 50 - StalkerOW: Removed until T4 is back.
+      ClothingOuterArmorBerill5MMonolith: 50 # OW we added it back 
 
   - name: shop-category-grenades
     priority: 4
